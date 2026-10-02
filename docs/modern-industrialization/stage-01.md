@@ -89,6 +89,8 @@ Industrialization: у Ex Deorum есть свой **Iron Hammer** для дро�
     каждого. Если его нет, а вы с жителем еще не торговали, сломайте и
     поставьте заново **Forge Hammer**: сделки выпадут заново.
 
+    ![Сделки industrialist первого уровня, Steel Hammer за изумруды](../assets/shots/stage-01-industrialist.png)
+
 ??? note "Можно без молота?"
     Можно, но руды уйдет в три с лишним раза больше: 28 **Copper Ore** и 14
     **Deepslate Tin Ore**, плавок 296. **Brick** тогда нужно 48, а железа
@@ -110,6 +112,8 @@ Industrialization: у Ex Deorum есть свой **Iron Hammer** для дро�
 Кладите **Copper Ore** в **Forge Hammer**: с молотом из одного блока руды
 выходит 12 **Copper Dust**, повторите 8 раз. **Deepslate Tin Ore** дает по
 4 **Tin Dust**, его нужно 4 блока.
+
+![Forge Hammer с Iron Hammer: из руды выходит пыль меди](../assets/shots/stage-01-ore-dust.png)
 
 <!-- mc:card stage-01-gate alltheores:copper_dust -->
 <div class="mc-card" style="display:inline-block;vertical-align:top;background:#c6c6c6;border:2px solid #000;border-radius:4px;box-shadow:inset 2px 2px 0 #fff,inset -2px -2px 0 #555;padding:8px 10px 10px;margin:0.4em 0.6em 1em 0;color:#3f3f3f;font-size:0.7rem;line-height:1.25"><span style="display:block;margin:0 0 6px 2px">Forge Hammer</span><span style="display:flex;align-items:center;gap:12px"><span style="display:flex;flex-direction:column;gap:4px"><span title="Copper Ore (Minecraft). Подходит любой: Copper Ore, Deepslate Copper Ore" style="position:relative;display:block;width:36px;height:36px;box-sizing:border-box;background:#8b8b8b;border:2px solid;border-color:#373737 #fff #fff #373737;padding:0;margin:0"><img class="off-glb" src="../../assets/tex/minecraft/copper_ore.png" alt="" style="position:absolute;left:0px;top:0px;width:32px;height:32px;max-width:none;max-height:none;image-rendering:pixelated;margin:0"></span></span><span style="display:block;width:0;height:0;border-left:16px solid #8b8b8b;border-top:11px solid transparent;border-bottom:11px solid transparent;margin-left:6px"></span><span style="display:flex;flex-direction:column;gap:4px"><span title="Copper Dust (AllTheOres)" style="position:relative;display:block;width:52px;height:52px;box-sizing:border-box;background:#8b8b8b;border:2px solid;border-color:#373737 #fff #fff #373737;padding:0;margin:0"><img class="off-glb" src="../../assets/tex/alltheores/copper_dust.png" alt="" style="position:absolute;left:8px;top:8px;width:32px;height:32px;max-width:none;max-height:none;image-rendering:pixelated;margin:0"><span style="position:absolute;right:1px;bottom:-1px;font-size:13px;font-weight:700;line-height:1;color:#fff;text-shadow:2px 2px 0 #3f3f3f">12</span></span></span></span><span style="display:block;margin-top:6px">Инструмент: Iron Hammer</span><span style="display:block;margin-top:6px">8 раз</span></div>
@@ -297,10 +301,14 @@ Blade** и **Copper Ring**, сделайте 4 ротора.
 появится, а труба в руке не потратится. Ключом тоже можно, подойдет
 **Wrench** из MI или ключ многих других модов, но в плане этапа ключа нет.
 
+![Fluid Pipe, подключенная к машине снизу](../assets/shots/stage-01-pipe-wrench.png)
+
 ![Бойлер и четыре машины на трубах](../assets/shots/stage-01-done.png)
 
 Залейте в бойлер воду ведрами, в бак входит 8 ведер, и положите уголь. Пар пойдет уже на прогреве, а полную силу бойлер наберет минуты через
 три, когда дойдет до 1500 градусов.
+
+![Bronze Boiler на полном жаре](../assets/shots/stage-01-boiler-hot.png)
 
 На полном жаре один **Coal** держит бойлер 200 секунд, ведра воды хватает на
 100. Четыре машины в работе съедают около 18 угля в час.
@@ -346,3 +354,6 @@ Blade** и **Copper Ring**, сделайте 4 ротора.
 
 Все четыре машины стоят у бойлера и работают на паре. Прекрафтов и автокрафта
 через AE2 на этом этапе нет, все делается руками. Следующий этап про сталь.
+
+![Bronze Macerator в работе](../assets/shots/stage-01-macerator-run.png)
+![Bronze Mixer в работе](../assets/shots/stage-01-mixer-run.png)
