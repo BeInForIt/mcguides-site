@@ -1,0 +1,2969 @@
+{
+ "targets": [
+  "modern_industrialization:forge_hammer",
+  "modern_industrialization:bronze_boiler",
+  "modern_industrialization:bronze_furnace",
+  "modern_industrialization:bronze_cutting_machine",
+  "modern_industrialization:bronze_macerator",
+  "modern_industrialization:bronze_mixer",
+  "modern_industrialization:bronze_compressor"
+ ],
+ "items": {
+  "alltheores:bronze_dust": {
+   "name": "Bronze Dust",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/alltheores/item/bronze_dust.png"
+    ]
+   }
+  },
+  "alltheores:bronze_gear": {
+   "name": "Bronze Gear",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/alltheores/item/bronze_gear.png"
+    ]
+   }
+  },
+  "alltheores:bronze_ingot": {
+   "name": "Bronze Ingot",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/alltheores/item/bronze_ingot.png"
+    ]
+   }
+  },
+  "alltheores:bronze_plate": {
+   "name": "Bronze Plate",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/alltheores/item/bronze_plate.png"
+    ]
+   }
+  },
+  "alltheores:copper_dust": {
+   "name": "Copper Dust",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/alltheores/item/copper_dust.png"
+    ]
+   }
+  },
+  "alltheores:copper_gear": {
+   "name": "Copper Gear",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/alltheores/item/copper_gear.png"
+    ]
+   }
+  },
+  "alltheores:copper_rod": {
+   "name": "Copper Rod",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/alltheores/item/copper_rod.png"
+    ]
+   }
+  },
+  "alltheores:raw_tin": {
+   "name": "Raw Tin",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/alltheores/item/raw_tin.png"
+    ]
+   }
+  },
+  "alltheores:tin_dust": {
+   "name": "Tin Dust",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/alltheores/item/tin_dust.png"
+    ]
+   }
+  },
+  "minecraft:brick": {
+   "name": "Brick",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/minecraft/item/brick.png"
+    ]
+   }
+  },
+  "minecraft:clay_ball": {
+   "name": "Clay Ball",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/minecraft/item/clay_ball.png"
+    ]
+   }
+  },
+  "minecraft:cobblestone": {
+   "name": "Cobblestone",
+   "icon": {
+    "type": "cube",
+    "top": [
+     "assets/tex/minecraft/block/cobblestone.png"
+    ],
+    "left": [
+     "assets/tex/minecraft/block/cobblestone.png"
+    ],
+    "right": [
+     "assets/tex/minecraft/block/cobblestone.png"
+    ]
+   }
+  },
+  "minecraft:copper_ingot": {
+   "name": "Copper Ingot",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/minecraft/item/copper_ingot.png"
+    ]
+   }
+  },
+  "minecraft:diamond": {
+   "name": "Diamond",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/minecraft/item/diamond.png"
+    ]
+   }
+  },
+  "minecraft:furnace": {
+   "name": "Furnace",
+   "icon": {
+    "type": "cube",
+    "top": [
+     "assets/tex/minecraft/block/furnace_top.png"
+    ],
+    "left": [
+     "assets/tex/minecraft/block/furnace_front.png"
+    ],
+    "right": [
+     "assets/tex/minecraft/block/furnace_side.png"
+    ]
+   }
+  },
+  "minecraft:glass": {
+   "name": "Glass",
+   "icon": {
+    "type": "cube",
+    "top": [
+     "assets/tex/minecraft/block/glass.png"
+    ],
+    "left": [
+     "assets/tex/minecraft/block/glass.png"
+    ],
+    "right": [
+     "assets/tex/minecraft/block/glass.png"
+    ]
+   }
+  },
+  "minecraft:glass_pane": {
+   "name": "Glass Pane",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/minecraft/block/glass.png"
+    ]
+   }
+  },
+  "minecraft:heavy_weighted_pressure_plate": {
+   "name": "Heavy Weighted Pressure Plate",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/minecraft/block/iron_block.png"
+    ]
+   }
+  },
+  "minecraft:iron_ingot": {
+   "name": "Iron Ingot",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/minecraft/item/iron_ingot.png"
+    ]
+   }
+  },
+  "minecraft:iron_nugget": {
+   "name": "Iron Nugget",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/minecraft/item/iron_nugget.png"
+    ]
+   }
+  },
+  "minecraft:raw_copper": {
+   "name": "Raw Copper",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/minecraft/item/raw_copper.png"
+    ]
+   }
+  },
+  "modern_industrialization:brick_dust": {
+   "name": "Brick Dust",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/modern_industrialization/item/brick_dust.png"
+    ]
+   }
+  },
+  "modern_industrialization:bronze_boiler": {
+   "name": "Bronze Boiler",
+   "icon": {
+    "type": "cube",
+    "top": [
+     "assets/tex/modern_industrialization/block/casings/bricked_bronze.png"
+    ],
+    "left": [
+     "assets/tex/modern_industrialization/block/casings/bricked_bronze.png",
+     "assets/tex/modern_industrialization/block/machines/boiler/overlay_front.png"
+    ],
+    "right": [
+     "assets/tex/modern_industrialization/block/casings/bricked_bronze.png"
+    ]
+   }
+  },
+  "modern_industrialization:bronze_compressor": {
+   "name": "Bronze Compressor",
+   "icon": {
+    "type": "cube",
+    "top": [
+     "assets/tex/modern_industrialization/block/bronze_machine_casing.png",
+     "assets/tex/modern_industrialization/block/machines/compressor/overlay_top.png"
+    ],
+    "left": [
+     "assets/tex/modern_industrialization/block/bronze_machine_casing.png",
+     "assets/tex/modern_industrialization/block/machines/compressor/overlay_front.png"
+    ],
+    "right": [
+     "assets/tex/modern_industrialization/block/bronze_machine_casing.png",
+     "assets/tex/modern_industrialization/block/machines/compressor/overlay_side.png"
+    ]
+   }
+  },
+  "modern_industrialization:bronze_curved_plate": {
+   "name": "Bronze Curved Plate",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/modern_industrialization/item/bronze_curved_plate.png"
+    ]
+   }
+  },
+  "modern_industrialization:bronze_cutting_machine": {
+   "name": "Bronze Cutting Machine",
+   "icon": {
+    "type": "cube",
+    "top": [
+     "assets/tex/modern_industrialization/block/bronze_machine_casing.png"
+    ],
+    "left": [
+     "assets/tex/modern_industrialization/block/bronze_machine_casing.png",
+     "assets/tex/modern_industrialization/block/machines/cutting_machine/overlay_front.png"
+    ],
+    "right": [
+     "assets/tex/modern_industrialization/block/bronze_machine_casing.png"
+    ]
+   }
+  },
+  "modern_industrialization:bronze_double_ingot": {
+   "name": "Bronze Double Ingot",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/modern_industrialization/item/bronze_double_ingot.png"
+    ]
+   }
+  },
+  "modern_industrialization:bronze_furnace": {
+   "name": "Bronze Furnace",
+   "icon": {
+    "type": "cube",
+    "top": [
+     "assets/tex/modern_industrialization/block/bronze_machine_casing.png"
+    ],
+    "left": [
+     "assets/tex/modern_industrialization/block/bronze_machine_casing.png",
+     "assets/tex/modern_industrialization/block/machines/furnace/overlay_front.png"
+    ],
+    "right": [
+     "assets/tex/modern_industrialization/block/bronze_machine_casing.png"
+    ]
+   }
+  },
+  "modern_industrialization:bronze_macerator": {
+   "name": "Bronze Macerator",
+   "icon": {
+    "type": "cube",
+    "top": [
+     "assets/tex/modern_industrialization/block/bronze_machine_casing.png",
+     "assets/tex/modern_industrialization/block/machines/macerator/overlay_top.png"
+    ],
+    "left": [
+     "assets/tex/modern_industrialization/block/bronze_machine_casing.png",
+     "assets/tex/modern_industrialization/block/machines/macerator/overlay_front.png"
+    ],
+    "right": [
+     "assets/tex/modern_industrialization/block/bronze_machine_casing.png"
+    ]
+   }
+  },
+  "modern_industrialization:bronze_machine_casing": {
+   "name": "Bronze Machine Casing",
+   "icon": {
+    "type": "cube",
+    "top": [
+     "assets/tex/modern_industrialization/block/bronze_machine_casing.png"
+    ],
+    "left": [
+     "assets/tex/modern_industrialization/block/bronze_machine_casing.png"
+    ],
+    "right": [
+     "assets/tex/modern_industrialization/block/bronze_machine_casing.png"
+    ]
+   }
+  },
+  "modern_industrialization:bronze_mixer": {
+   "name": "Bronze Mixer",
+   "icon": {
+    "type": "cube",
+    "top": [
+     "assets/tex/modern_industrialization/block/bronze_machine_casing.png",
+     "assets/tex/modern_industrialization/block/machines/mixer/overlay_top.png"
+    ],
+    "left": [
+     "assets/tex/modern_industrialization/block/bronze_machine_casing.png",
+     "assets/tex/modern_industrialization/block/machines/mixer/overlay_front.png"
+    ],
+    "right": [
+     "assets/tex/modern_industrialization/block/bronze_machine_casing.png",
+     "assets/tex/modern_industrialization/block/machines/mixer/overlay_side.png"
+    ]
+   }
+  },
+  "modern_industrialization:bronze_tank": {
+   "name": "Bronze Tank",
+   "icon": {
+    "type": "cube",
+    "top": [
+     "assets/tex/modern_industrialization/block/bronze_tank.png"
+    ],
+    "left": [
+     "assets/tex/modern_industrialization/block/bronze_tank.png"
+    ],
+    "right": [
+     "assets/tex/modern_industrialization/block/bronze_tank.png"
+    ]
+   }
+  },
+  "modern_industrialization:copper_blade": {
+   "name": "Copper Blade",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/modern_industrialization/item/copper_blade.png"
+    ]
+   }
+  },
+  "modern_industrialization:copper_bolt": {
+   "name": "Copper Bolt",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/modern_industrialization/item/copper_bolt.png"
+    ]
+   }
+  },
+  "modern_industrialization:copper_curved_plate": {
+   "name": "Copper Curved Plate",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/modern_industrialization/item/copper_curved_plate.png"
+    ]
+   }
+  },
+  "modern_industrialization:copper_double_ingot": {
+   "name": "Copper Double Ingot",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/modern_industrialization/item/copper_double_ingot.png"
+    ]
+   }
+  },
+  "modern_industrialization:copper_ring": {
+   "name": "Copper Ring",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/modern_industrialization/item/copper_ring.png"
+    ]
+   }
+  },
+  "modern_industrialization:copper_rotor": {
+   "name": "Copper Rotor",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/modern_industrialization/item/copper_rotor.png"
+    ]
+   }
+  },
+  "modern_industrialization:fire_clay_brick": {
+   "name": "Fire Clay Brick",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/modern_industrialization/item/fire_clay_brick.png"
+    ]
+   }
+  },
+  "modern_industrialization:fire_clay_bricks": {
+   "name": "Fire Clay Bricks",
+   "icon": {
+    "type": "cube",
+    "top": [
+     "assets/tex/modern_industrialization/block/fire_clay_bricks.png"
+    ],
+    "left": [
+     "assets/tex/modern_industrialization/block/fire_clay_bricks.png"
+    ],
+    "right": [
+     "assets/tex/modern_industrialization/block/fire_clay_bricks.png"
+    ]
+   }
+  },
+  "modern_industrialization:fire_clay_dust": {
+   "name": "Fire Clay Dust",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/modern_industrialization/item/fire_clay_dust.png"
+    ]
+   }
+  },
+  "modern_industrialization:fluid_pipe": {
+   "name": "Fluid Pipe",
+   "icon": null
+  },
+  "modern_industrialization:forge_hammer": {
+   "name": "Forge Hammer",
+   "icon": {
+    "type": "flat",
+    "layers": [
+     "assets/tex/modern_industrialization/block/forge_hammer.png"
+    ]
+   }
+  }
+ },
+ "recipes": [
+  {
+   "id": 0,
+   "recipe": "modern_industrialization:steam_age/bronze/compressor_asbl",
+   "station": "Crafting Table",
+   "crafts": 1.0,
+   "inputs": [
+    {
+     "item": "alltheores:copper_rod",
+     "name": "Copper Rod",
+     "count": 2.0,
+     "alt": []
+    },
+    {
+     "item": "modern_industrialization:forge_hammer",
+     "name": "Forge Hammer",
+     "count": 1.0,
+     "alt": []
+    },
+    {
+     "item": "alltheores:copper_gear",
+     "name": "Copper Gear",
+     "count": 2.0,
+     "alt": []
+    },
+    {
+     "item": "modern_industrialization:bronze_machine_casing",
+     "name": "Bronze Machine Casing",
+     "count": 1.0,
+     "alt": []
+    },
+    {
+     "item": "modern_industrialization:fluid_pipe",
+     "name": "Fluid Pipe",
+     "count": 3.0,
+     "alt": [
+      "Fluid Pipe",
+      "White Fluid Pipe",
+      "Light Gray Fluid Pipe",
+      "Gray Fluid Pipe",
+      "Black Fluid Pipe",
+      "Brown Fluid Pipe",
+      "Red Fluid Pipe",
+      "Orange Fluid Pipe",
+      "Yellow Fluid Pipe",
+      "Lime Fluid Pipe",
+      "Green Fluid Pipe",
+      "Cyan Fluid Pipe",
+      "Light Blue Fluid Pipe",
+      "Blue Fluid Pipe",
+      "Purple Fluid Pipe",
+      "Magenta Fluid Pipe",
+      "Pink Fluid Pipe"
+     ]
+    }
+   ],
+   "outputs": [
+    {
+     "item": "modern_industrialization:bronze_compressor",
+     "name": "Bronze Compressor",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "grid": [
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     2,
+     3,
+     2
+    ],
+    [
+     4,
+     4,
+     4
+    ]
+   ]
+  },
+  {
+   "id": 1,
+   "recipe": "modern_industrialization:steam_age/bronze/mixer_asbl",
+   "station": "Crafting Table",
+   "crafts": 1.0,
+   "inputs": [
+    {
+     "item": "minecraft:glass",
+     "name": "Glass",
+     "count": 2.0,
+     "alt": [
+      "Glass",
+      "Connecting Glass",
+      "Clear Glass",
+      "Scratched Glass",
+      "Tiled Glass",
+      "Framed Glass",
+      "Horizontal Framed Glass",
+      "Vertical Framed Glass",
+      "Deorum Glass",
+      "Runic Glass",
+      "Glass Viewer",
+      "Silicon Glass Viewer",
+      "Dire Glass Viewer",
+      "Glowing Glass Viewer",
+      "Reinforced Glass Viewer",
+      "White Stained Glass",
+      "Orange Stained Glass",
+      "Magenta Stained Glass",
+      "Light Blue Stained Glass",
+      "Yellow Stained Glass",
+      "Lime Stained Glass",
+      "Pink Stained Glass",
+      "Gray Stained Glass",
+      "Light Gray Stained Glass",
+      "Cyan Stained Glass",
+      "Purple Stained Glass",
+      "Blue Stained Glass",
+      "Brown Stained Glass",
+      "Green Stained Glass",
+      "Red Stained Glass",
+      "Black Stained Glass",
+      "Connecting Cyan Stained Glass",
+      "Connecting Orange Stained Glass",
+      "Scratched Light Blue Stained Glass",
+      "Connecting Pink Stained Glass",
+      "Clear Red Stained Glass",
+      "Clear Pink Stained Glass",
+      "Scratched Pink Stained Glass",
+      "Scratched Purple Stained Glass",
+      "Connecting Blue Stained Glass",
+      "Connecting Purple Stained Glass",
+      "Scratched Brown Stained Glass",
+      "Scratched Gray Stained Glass",
+      "Clear Yellow Stained Glass",
+      "Clear Black Stained Glass",
+      "Scratched Red Stained Glass",
+      "Clear Gray Stained Glass",
+      "Connecting Green Stained Glass",
+      "Clear Cyan Stained Glass",
+      "Scratched White Stained Glass",
+      "Scratched Blue Stained Glass",
+      "Clear Blue Stained Glass",
+      "Clear Light Gray Stained Glass",
+      "Connecting Black Stained Glass",
+      "Scratched Yellow Stained Glass",
+      "Connecting Light Blue Stained Glass",
+      "Connecting Red Stained Glass",
+      "Scratched Lime Stained Glass",
+      "Clear Orange Stained Glass",
+      "Connecting White Stained Glass",
+      "Clear Green Stained Glass",
+      "Connecting Lime Stained Glass",
+      "Connecting Brown Stained Glass",
+      "Connecting Yellow Stained Glass",
+      "Clear Lime Stained Glass",
+      "Scratched Light Gray Stained Glass",
+      "Clear Magenta Stained Glass",
+      "Scratched Orange Stained Glass",
+      "Connecting Light Gray Stained Glass",
+      "Clear White Stained Glass",
+      "Scratched Green Stained Glass",
+      "Scratched Magenta Stained Glass",
+      "Scratched Cyan Stained Glass",
+      "Scratched Black Stained Glass",
+      "Clear Purple Stained Glass",
+      "Connecting Gray Stained Glass",
+      "Clear Light Blue Stained Glass",
+      "Connecting Magenta Stained Glass",
+      "Clear Brown Stained Glass",
+      "Tinted Glass",
+      "Connecting Tinted Blue Stained Glass",
+      "Connecting Tinted Lime Stained Glass",
+      "Connecting Tinted Magenta Stained Glass",
+      "Connecting Tinted Glass",
+      "Connecting Tinted Pink Stained Glass",
+      "Connecting Tinted Brown Stained Glass",
+      "Connecting Tinted Green Stained Glass",
+      "Connecting Tinted Yellow Stained Glass",
+      "Connecting Tinted Orange Stained Glass",
+      "Connecting Tinted Red Stained Glass",
+      "Connecting Tinted Cyan Stained Glass",
+      "Connecting Tinted Light Gray Stained Glass",
+      "Connecting Tinted Light Blue Stained Glass",
+      "Connecting Tinted Gray Stained Glass",
+      "Connecting Tinted Purple Stained Glass",
+      "Connecting Tinted White Stained Glass",
+      "Connecting Tinted Black Stained Glass",
+      "Peach Stained Glass",
+      "Aquamarine Stained Glass",
+      "Fluorescent Stained Glass",
+      "Mint Stained Glass",
+      "Maroon Stained Glass",
+      "Bubblegum Stained Glass",
+      "Lavender Stained Glass",
+      "Persimmon Stained Glass",
+      "Cherenkov Stained Glass",
+      "Amber Stained Glass",
+      "Honey Stained Glass",
+      "Ultramarine Stained Glass",
+      "Spring Green Stained Glass",
+      "Rose Stained Glass",
+      "Navy Stained Glass",
+      "Icy Blue Stained Glass",
+      "Wine Stained Glass",
+      "Conifer Stained Glass",
+      "Coal Tinted Glass",
+      "Copper Tinted Glass",
+      "Diamond Tinted Glass",
+      "Emerald Tinted Glass",
+      "Gold Tinted Glass",
+      "Iron Tinted Glass",
+      "Lapis Tinted Glass",
+      "Quartz Tinted Glass",
+      "Redstone Tinted Glass",
+      "Ancient Debris Tinted Glass",
+      "Ruby Tinted Glass",
+      "Sapphire Tinted Glass",
+      "Topaz Tinted Glass",
+      "Zinc Tinted Glass",
+      "Uraninite Tinted Glass",
+      "Black Quartz Tinted Glass",
+      "Monazite Tinted Glass",
+      "Aluminum Tinted Glass",
+      "Lead Tinted Glass",
+      "Nickel Tinted Glass",
+      "Osmium Tinted Glass",
+      "Platinum Tinted Glass",
+      "Silver Tinted Glass",
+      "Tin Tinted Glass",
+      "Tungsten Tinted Glass",
+      "Uranium Tinted Glass",
+      "Allthemodium Tinted Glass",
+      "Vibranium Tinted Glass",
+      "Unobtainium Tinted Glass",
+      "Dark Glass Viewer",
+      "Dark Phantom Glass Viewer",
+      "Quartz Glass",
+      "Vibrant Quartz Glass",
+      "Crystalix Glass",
+      "Clear Crystalix Glass",
+      "Bordered Crystalix Glass",
+      "Glaxx",
+      "Glaxx Variant 1",
+      "Glaxx Variant 2",
+      "Glaxx Variant 3",
+      "Glaxx Variant 4",
+      "Glaxx Variant 5",
+      "Glaxx Variant 6",
+      "Glaxx Variant 7",
+      "Glaxx Variant 8",
+      "Glaxx Variant 9",
+      "Glaxx Variant 10",
+      "Glaxx Variant 11",
+      "Glaxx Variant 12",
+      "Glaxx Variant 13",
+      "Glaxx Variant 14",
+      "Glaxx Variant 15",
+      "Phantom Glass Viewer",
+      "Glowing Phantom Glass Viewer",
+      "Immortal Glass Viewer",
+      "RGB Viewer",
+      "Glowing RGB Viewer"
+     ]
+    },
+    {
+     "item": "alltheores:copper_gear",
+     "name": "Copper Gear",
+     "count": 1.0,
+     "alt": []
+    },
+    {
+     "item": "modern_industrialization:copper_rotor",
+     "name": "Copper Rotor",
+     "count": 2.0,
+     "alt": []
+    },
+    {
+     "item": "modern_industrialization:bronze_machine_casing",
+     "name": "Bronze Machine Casing",
+     "count": 1.0,
+     "alt": []
+    },
+    {
+     "item": "modern_industrialization:fluid_pipe",
+     "name": "Fluid Pipe",
+     "count": 3.0,
+     "alt": [
+      "Fluid Pipe",
+      "White Fluid Pipe",
+      "Light Gray Fluid Pipe",
+      "Gray Fluid Pipe",
+      "Black Fluid Pipe",
+      "Brown Fluid Pipe",
+      "Red Fluid Pipe",
+      "Orange Fluid Pipe",
+      "Yellow Fluid Pipe",
+      "Lime Fluid Pipe",
+      "Green Fluid Pipe",
+      "Cyan Fluid Pipe",
+      "Light Blue Fluid Pipe",
+      "Blue Fluid Pipe",
+      "Purple Fluid Pipe",
+      "Magenta Fluid Pipe",
+      "Pink Fluid Pipe"
+     ]
+    }
+   ],
+   "outputs": [
+    {
+     "item": "modern_industrialization:bronze_mixer",
+     "name": "Bronze Mixer",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "grid": [
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     2,
+     3,
+     2
+    ],
+    [
+     4,
+     4,
+     4
+    ]
+   ]
+  },
+  {
+   "id": 2,
+   "recipe": "modern_industrialization:steam_age/bronze/macerator_asbl",
+   "station": "Crafting Table",
+   "crafts": 1.0,
+   "inputs": [
+    {
+     "item": "minecraft:diamond",
+     "name": "Diamond",
+     "count": 2.0,
+     "alt": []
+    },
+    {
+     "item": "alltheores:copper_gear",
+     "name": "Copper Gear",
+     "count": 3.0,
+     "alt": []
+    },
+    {
+     "item": "modern_industrialization:bronze_machine_casing",
+     "name": "Bronze Machine Casing",
+     "count": 1.0,
+     "alt": []
+    },
+    {
+     "item": "modern_industrialization:fluid_pipe",
+     "name": "Fluid Pipe",
+     "count": 3.0,
+     "alt": [
+      "Fluid Pipe",
+      "White Fluid Pipe",
+      "Light Gray Fluid Pipe",
+      "Gray Fluid Pipe",
+      "Black Fluid Pipe",
+      "Brown Fluid Pipe",
+      "Red Fluid Pipe",
+      "Orange Fluid Pipe",
+      "Yellow Fluid Pipe",
+      "Lime Fluid Pipe",
+      "Green Fluid Pipe",
+      "Cyan Fluid Pipe",
+      "Light Blue Fluid Pipe",
+      "Blue Fluid Pipe",
+      "Purple Fluid Pipe",
+      "Magenta Fluid Pipe",
+      "Pink Fluid Pipe"
+     ]
+    }
+   ],
+   "outputs": [
+    {
+     "item": "modern_industrialization:bronze_macerator",
+     "name": "Bronze Macerator",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "grid": [
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     1
+    ],
+    [
+     3,
+     3,
+     3
+    ]
+   ]
+  },
+  {
+   "id": 3,
+   "recipe": "modern_industrialization:steam_age/bronze/cutting_machine_asbl",
+   "station": "Crafting Table",
+   "crafts": 1.0,
+   "inputs": [
+    {
+     "item": "minecraft:glass",
+     "name": "Glass",
+     "count": 2.0,
+     "alt": [
+      "Glass",
+      "Connecting Glass",
+      "Clear Glass",
+      "Scratched Glass",
+      "Tiled Glass",
+      "Framed Glass",
+      "Horizontal Framed Glass",
+      "Vertical Framed Glass",
+      "Deorum Glass",
+      "Runic Glass",
+      "Glass Viewer",
+      "Silicon Glass Viewer",
+      "Dire Glass Viewer",
+      "Glowing Glass Viewer",
+      "Reinforced Glass Viewer",
+      "White Stained Glass",
+      "Orange Stained Glass",
+      "Magenta Stained Glass",
+      "Light Blue Stained Glass",
+      "Yellow Stained Glass",
+      "Lime Stained Glass",
+      "Pink Stained Glass",
+      "Gray Stained Glass",
+      "Light Gray Stained Glass",
+      "Cyan Stained Glass",
+      "Purple Stained Glass",
+      "Blue Stained Glass",
+      "Brown Stained Glass",
+      "Green Stained Glass",
+      "Red Stained Glass",
+      "Black Stained Glass",
+      "Connecting Cyan Stained Glass",
+      "Connecting Orange Stained Glass",
+      "Scratched Light Blue Stained Glass",
+      "Connecting Pink Stained Glass",
+      "Clear Red Stained Glass",
+      "Clear Pink Stained Glass",
+      "Scratched Pink Stained Glass",
+      "Scratched Purple Stained Glass",
+      "Connecting Blue Stained Glass",
+      "Connecting Purple Stained Glass",
+      "Scratched Brown Stained Glass",
+      "Scratched Gray Stained Glass",
+      "Clear Yellow Stained Glass",
+      "Clear Black Stained Glass",
+      "Scratched Red Stained Glass",
+      "Clear Gray Stained Glass",
+      "Connecting Green Stained Glass",
+      "Clear Cyan Stained Glass",
+      "Scratched White Stained Glass",
+      "Scratched Blue Stained Glass",
+      "Clear Blue Stained Glass",
+      "Clear Light Gray Stained Glass",
+      "Connecting Black Stained Glass",
+      "Scratched Yellow Stained Glass",
+      "Connecting Light Blue Stained Glass",
+      "Connecting Red Stained Glass",
+      "Scratched Lime Stained Glass",
+      "Clear Orange Stained Glass",
+      "Connecting White Stained Glass",
+      "Clear Green Stained Glass",
+      "Connecting Lime Stained Glass",
+      "Connecting Brown Stained Glass",
+      "Connecting Yellow Stained Glass",
+      "Clear Lime Stained Glass",
+      "Scratched Light Gray Stained Glass",
+      "Clear Magenta Stained Glass",
+      "Scratched Orange Stained Glass",
+      "Connecting Light Gray Stained Glass",
+      "Clear White Stained Glass",
+      "Scratched Green Stained Glass",
+      "Scratched Magenta Stained Glass",
+      "Scratched Cyan Stained Glass",
+      "Scratched Black Stained Glass",
+      "Clear Purple Stained Glass",
+      "Connecting Gray Stained Glass",
+      "Clear Light Blue Stained Glass",
+      "Connecting Magenta Stained Glass",
+      "Clear Brown Stained Glass",
+      "Tinted Glass",
+      "Connecting Tinted Blue Stained Glass",
+      "Connecting Tinted Lime Stained Glass",
+      "Connecting Tinted Magenta Stained Glass",
+      "Connecting Tinted Glass",
+      "Connecting Tinted Pink Stained Glass",
+      "Connecting Tinted Brown Stained Glass",
+      "Connecting Tinted Green Stained Glass",
+      "Connecting Tinted Yellow Stained Glass",
+      "Connecting Tinted Orange Stained Glass",
+      "Connecting Tinted Red Stained Glass",
+      "Connecting Tinted Cyan Stained Glass",
+      "Connecting Tinted Light Gray Stained Glass",
+      "Connecting Tinted Light Blue Stained Glass",
+      "Connecting Tinted Gray Stained Glass",
+      "Connecting Tinted Purple Stained Glass",
+      "Connecting Tinted White Stained Glass",
+      "Connecting Tinted Black Stained Glass",
+      "Peach Stained Glass",
+      "Aquamarine Stained Glass",
+      "Fluorescent Stained Glass",
+      "Mint Stained Glass",
+      "Maroon Stained Glass",
+      "Bubblegum Stained Glass",
+      "Lavender Stained Glass",
+      "Persimmon Stained Glass",
+      "Cherenkov Stained Glass",
+      "Amber Stained Glass",
+      "Honey Stained Glass",
+      "Ultramarine Stained Glass",
+      "Spring Green Stained Glass",
+      "Rose Stained Glass",
+      "Navy Stained Glass",
+      "Icy Blue Stained Glass",
+      "Wine Stained Glass",
+      "Conifer Stained Glass",
+      "Coal Tinted Glass",
+      "Copper Tinted Glass",
+      "Diamond Tinted Glass",
+      "Emerald Tinted Glass",
+      "Gold Tinted Glass",
+      "Iron Tinted Glass",
+      "Lapis Tinted Glass",
+      "Quartz Tinted Glass",
+      "Redstone Tinted Glass",
+      "Ancient Debris Tinted Glass",
+      "Ruby Tinted Glass",
+      "Sapphire Tinted Glass",
+      "Topaz Tinted Glass",
+      "Zinc Tinted Glass",
+      "Uraninite Tinted Glass",
+      "Black Quartz Tinted Glass",
+      "Monazite Tinted Glass",
+      "Aluminum Tinted Glass",
+      "Lead Tinted Glass",
+      "Nickel Tinted Glass",
+      "Osmium Tinted Glass",
+      "Platinum Tinted Glass",
+      "Silver Tinted Glass",
+      "Tin Tinted Glass",
+      "Tungsten Tinted Glass",
+      "Uranium Tinted Glass",
+      "Allthemodium Tinted Glass",
+      "Vibranium Tinted Glass",
+      "Unobtainium Tinted Glass",
+      "Dark Glass Viewer",
+      "Dark Phantom Glass Viewer",
+      "Quartz Glass",
+      "Vibrant Quartz Glass",
+      "Crystalix Glass",
+      "Clear Crystalix Glass",
+      "Bordered Crystalix Glass",
+      "Glaxx",
+      "Glaxx Variant 1",
+      "Glaxx Variant 2",
+      "Glaxx Variant 3",
+      "Glaxx Variant 4",
+      "Glaxx Variant 5",
+      "Glaxx Variant 6",
+      "Glaxx Variant 7",
+      "Glaxx Variant 8",
+      "Glaxx Variant 9",
+      "Glaxx Variant 10",
+      "Glaxx Variant 11",
+      "Glaxx Variant 12",
+      "Glaxx Variant 13",
+      "Glaxx Variant 14",
+      "Glaxx Variant 15",
+      "Phantom Glass Viewer",
+      "Glowing Phantom Glass Viewer",
+      "Immortal Glass Viewer",
+      "RGB Viewer",
+      "Glowing RGB Viewer"
+     ]
+    },
+    {
+     "item": "minecraft:diamond",
+     "name": "Diamond",
+     "count": 1.0,
+     "alt": []
+    },
+    {
+     "item": "alltheores:copper_gear",
+     "name": "Copper Gear",
+     "count": 2.0,
+     "alt": []
+    },
+    {
+     "item": "modern_industrialization:bronze_machine_casing",
+     "name": "Bronze Machine Casing",
+     "count": 1.0,
+     "alt": []
+    },
+    {
+     "item": "modern_industrialization:fluid_pipe",
+     "name": "Fluid Pipe",
+     "count": 3.0,
+     "alt": [
+      "Fluid Pipe",
+      "White Fluid Pipe",
+      "Light Gray Fluid Pipe",
+      "Gray Fluid Pipe",
+      "Black Fluid Pipe",
+      "Brown Fluid Pipe",
+      "Red Fluid Pipe",
+      "Orange Fluid Pipe",
+      "Yellow Fluid Pipe",
+      "Lime Fluid Pipe",
+      "Green Fluid Pipe",
+      "Cyan Fluid Pipe",
+      "Light Blue Fluid Pipe",
+      "Blue Fluid Pipe",
+      "Purple Fluid Pipe",
+      "Magenta Fluid Pipe",
+      "Pink Fluid Pipe"
+     ]
+    }
+   ],
+   "outputs": [
+    {
+     "item": "modern_industrialization:bronze_cutting_machine",
+     "name": "Bronze Cutting Machine",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "grid": [
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     2,
+     3,
+     2
+    ],
+    [
+     4,
+     4,
+     4
+    ]
+   ]
+  },
+  {
+   "id": 4,
+   "recipe": "modern_industrialization:steam_age/fluid_pipe_asbl",
+   "station": "Crafting Table",
+   "crafts": 1.0,
+   "inputs": [
+    {
+     "item": "modern_industrialization:bronze_curved_plate",
+     "name": "Bronze Curved Plate",
+     "count": 6.0,
+     "alt": []
+    },
+    {
+     "item": "modern_industrialization:copper_rotor",
+     "name": "Copper Rotor",
+     "count": 2.0,
+     "alt": []
+    },
+    {
+     "item": "minecraft:glass_pane",
+     "name": "Glass Pane",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "outputs": [
+    {
+     "item": "modern_industrialization:fluid_pipe",
+     "name": "Fluid Pipe",
+     "count": 16.0,
+     "alt": []
+    }
+   ],
+   "grid": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     2,
+     1
+    ],
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  {
+   "id": 6,
+   "recipe": "modern_industrialization:materials/copper/craft/rotor",
+   "station": "Crafting Table",
+   "crafts": 4.0,
+   "inputs": [
+    {
+     "item": "modern_industrialization:copper_bolt",
+     "name": "Copper Bolt",
+     "count": 4.0,
+     "alt": []
+    },
+    {
+     "item": "modern_industrialization:copper_blade",
+     "name": "Copper Blade",
+     "count": 4.0,
+     "alt": []
+    },
+    {
+     "item": "modern_industrialization:copper_ring",
+     "name": "Copper Ring",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "outputs": [
+    {
+     "item": "modern_industrialization:copper_rotor",
+     "name": "Copper Rotor",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "grid": [
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     1
+    ],
+    [
+     0,
+     1,
+     0
+    ]
+   ]
+  },
+  {
+   "id": 7,
+   "recipe": "modern_industrialization:materials/copper/forge_hammer/double_ingot_to_ring_with_tool",
+   "station": "Forge Hammer",
+   "crafts": 1.0,
+   "inputs": [
+    {
+     "item": "modern_industrialization:copper_double_ingot",
+     "name": "Copper Double Ingot",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "outputs": [
+    {
+     "item": "modern_industrialization:copper_ring",
+     "name": "Copper Ring",
+     "count": 4.0,
+     "alt": []
+    }
+   ],
+   "tool": "Iron Hammer"
+  },
+  {
+   "id": 8,
+   "recipe": "modern_industrialization:materials/copper/craft/blade",
+   "station": "Crafting Table",
+   "crafts": 4.0,
+   "inputs": [
+    {
+     "item": "modern_industrialization:copper_curved_plate",
+     "name": "Copper Curved Plate",
+     "count": 2.0,
+     "alt": []
+    },
+    {
+     "item": "alltheores:copper_rod",
+     "name": "Copper Rod",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "outputs": [
+    {
+     "item": "modern_industrialization:copper_blade",
+     "name": "Copper Blade",
+     "count": 4.0,
+     "alt": []
+    }
+   ],
+   "grid": [
+    [
+     0
+    ],
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ]
+  },
+  {
+   "id": 9,
+   "recipe": "modern_industrialization:materials/copper/forge_hammer/double_ingot_to_rod_with_tool",
+   "station": "Forge Hammer",
+   "crafts": 2.0,
+   "inputs": [
+    {
+     "item": "modern_industrialization:copper_double_ingot",
+     "name": "Copper Double Ingot",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "outputs": [
+    {
+     "item": "alltheores:copper_rod",
+     "name": "Copper Rod",
+     "count": 4.0,
+     "alt": []
+    }
+   ],
+   "tool": "Iron Hammer"
+  },
+  {
+   "id": 10,
+   "recipe": "modern_industrialization:materials/copper/forge_hammer/double_ingot_to_curved_plate_with_tool",
+   "station": "Forge Hammer",
+   "crafts": 4.0,
+   "inputs": [
+    {
+     "item": "modern_industrialization:copper_double_ingot",
+     "name": "Copper Double Ingot",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "outputs": [
+    {
+     "item": "modern_industrialization:copper_curved_plate",
+     "name": "Copper Curved Plate",
+     "count": 2.0,
+     "alt": []
+    }
+   ],
+   "tool": "Iron Hammer"
+  },
+  {
+   "id": 11,
+   "recipe": "modern_industrialization:materials/copper/forge_hammer/double_ingot_to_bolt_with_tool",
+   "station": "Forge Hammer",
+   "crafts": 2.0,
+   "inputs": [
+    {
+     "item": "modern_industrialization:copper_double_ingot",
+     "name": "Copper Double Ingot",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "outputs": [
+    {
+     "item": "modern_industrialization:copper_bolt",
+     "name": "Copper Bolt",
+     "count": 8.0,
+     "alt": []
+    }
+   ],
+   "tool": "Iron Hammer"
+  },
+  {
+   "id": 12,
+   "recipe": "modern_industrialization:materials/copper/forge_hammer/ingot_to_double_ingot",
+   "station": "Forge Hammer",
+   "crafts": 9.0,
+   "inputs": [
+    {
+     "item": "minecraft:copper_ingot",
+     "name": "Copper Ingot",
+     "count": 2.0,
+     "alt": []
+    }
+   ],
+   "outputs": [
+    {
+     "item": "modern_industrialization:copper_double_ingot",
+     "name": "Copper Double Ingot",
+     "count": 1.0,
+     "alt": []
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "recipe": "modern_industrialization:materials/bronze/forge_hammer/double_ingot_to_curved_plate_with_tool",
+   "station": "Forge Hammer",
+   "crafts": 3.0,
+   "inputs": [
+    {
+     "item": "modern_industrialization:bronze_double_ingot",
+     "name": "Bronze Double Ingot",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "outputs": [
+    {
+     "item": "modern_industrialization:bronze_curved_plate",
+     "name": "Bronze Curved Plate",
+     "count": 2.0,
+     "alt": []
+    }
+   ],
+   "tool": "Iron Hammer"
+  },
+  {
+   "id": 14,
+   "recipe": "modern_industrialization:steam_age/bronze/machine_casing_asbl",
+   "station": "Crafting Table",
+   "crafts": 4.0,
+   "inputs": [
+    {
+     "item": "alltheores:bronze_plate",
+     "name": "Bronze Plate",
+     "count": 8.0,
+     "alt": []
+    },
+    {
+     "item": "alltheores:bronze_gear",
+     "name": "Bronze Gear",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "outputs": [
+    {
+     "item": "modern_industrialization:bronze_machine_casing",
+     "name": "Bronze Machine Casing",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "grid": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  {
+   "id": 15,
+   "recipe": "alltheores:crafting/bronze/gear",
+   "station": "Crafting Table",
+   "crafts": 4.0,
+   "inputs": [
+    {
+     "item": "alltheores:bronze_ingot",
+     "name": "Bronze Ingot",
+     "count": 4.0,
+     "alt": []
+    },
+    {
+     "item": "minecraft:iron_nugget",
+     "name": "Iron Nugget",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "outputs": [
+    {
+     "item": "alltheores:bronze_gear",
+     "name": "Bronze Gear",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "grid": [
+    [
+     null,
+     0,
+     null
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     null,
+     0,
+     null
+    ]
+   ]
+  },
+  {
+   "id": 16,
+   "recipe": "alltheores:crafting/copper/gear",
+   "station": "Crafting Table",
+   "crafts": 8.0,
+   "inputs": [
+    {
+     "item": "minecraft:copper_ingot",
+     "name": "Copper Ingot",
+     "count": 4.0,
+     "alt": []
+    },
+    {
+     "item": "minecraft:iron_nugget",
+     "name": "Iron Nugget",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "outputs": [
+    {
+     "item": "alltheores:copper_gear",
+     "name": "Copper Gear",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "grid": [
+    [
+     null,
+     0,
+     null
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     null,
+     0,
+     null
+    ]
+   ]
+  },
+  {
+   "id": 17,
+   "recipe": "minecraft:iron_nugget",
+   "station": "Crafting Table",
+   "crafts": 2.0,
+   "inputs": [
+    {
+     "item": "minecraft:iron_ingot",
+     "name": "Iron Ingot",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "outputs": [
+    {
+     "item": "minecraft:iron_nugget",
+     "name": "Iron Nugget",
+     "count": 9.0,
+     "alt": []
+    }
+   ],
+   "grid": [
+    [
+     0
+    ]
+   ]
+  },
+  {
+   "id": 18,
+   "recipe": "modern_industrialization:materials/copper/smelting/dust_to_ingot_smelting",
+   "station": "Furnace",
+   "crafts": 50.0,
+   "inputs": [
+    {
+     "item": "alltheores:copper_dust",
+     "name": "Copper Dust",
+     "count": 1.0,
+     "alt": [
+      "Copper Dust",
+      "Powdered Copper",
+      "Copper Grit"
+     ]
+    }
+   ],
+   "outputs": [
+    {
+     "item": "minecraft:copper_ingot",
+     "name": "Copper Ingot",
+     "count": 1.0,
+     "alt": []
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "recipe": "modern_industrialization:steam_age/bronze/furnace_asbl",
+   "station": "Crafting Table",
+   "crafts": 1.0,
+   "inputs": [
+    {
+     "item": "alltheores:bronze_plate",
+     "name": "Bronze Plate",
+     "count": 5.0,
+     "alt": []
+    },
+    {
+     "item": "minecraft:furnace",
+     "name": "Furnace",
+     "count": 1.0,
+     "alt": []
+    },
+    {
+     "item": "modern_industrialization:fire_clay_bricks",
+     "name": "Fire Clay Bricks",
+     "count": 3.0,
+     "alt": []
+    }
+   ],
+   "outputs": [
+    {
+     "item": "modern_industrialization:bronze_furnace",
+     "name": "Bronze Furnace",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "grid": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     2,
+     2,
+     2
+    ]
+   ]
+  },
+  {
+   "id": 21,
+   "recipe": "modern_industrialization:steam_age/bronze/boiler_asbl",
+   "station": "Crafting Table",
+   "crafts": 1.0,
+   "inputs": [
+    {
+     "item": "alltheores:bronze_plate",
+     "name": "Bronze Plate",
+     "count": 4.0,
+     "alt": []
+    },
+    {
+     "item": "modern_industrialization:bronze_tank",
+     "name": "Bronze Tank",
+     "count": 1.0,
+     "alt": []
+    },
+    {
+     "item": "minecraft:furnace",
+     "name": "Furnace",
+     "count": 1.0,
+     "alt": []
+    },
+    {
+     "item": "modern_industrialization:fire_clay_bricks",
+     "name": "Fire Clay Bricks",
+     "count": 3.0,
+     "alt": []
+    }
+   ],
+   "outputs": [
+    {
+     "item": "modern_industrialization:bronze_boiler",
+     "name": "Bronze Boiler",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "grid": [
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     3,
+     3,
+     3
+    ]
+   ]
+  },
+  {
+   "id": 22,
+   "recipe": "modern_industrialization:materials/fire_clay_bricks",
+   "station": "Crafting Table",
+   "crafts": 6.0,
+   "inputs": [
+    {
+     "item": "modern_industrialization:fire_clay_brick",
+     "name": "Fire Clay Brick",
+     "count": 4.0,
+     "alt": []
+    }
+   ],
+   "outputs": [
+    {
+     "item": "modern_industrialization:fire_clay_bricks",
+     "name": "Fire Clay Bricks",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "grid": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ]
+  },
+  {
+   "id": 23,
+   "recipe": "modern_industrialization:materials/fire_clay/smelting/dust_to_ingot_smelting",
+   "station": "Furnace",
+   "crafts": 24.0,
+   "inputs": [
+    {
+     "item": "modern_industrialization:fire_clay_dust",
+     "name": "Fire Clay Dust",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "outputs": [
+    {
+     "item": "modern_industrialization:fire_clay_brick",
+     "name": "Fire Clay Brick",
+     "count": 1.0,
+     "alt": []
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "recipe": "modern_industrialization:materials/fire_clay_dust",
+   "station": "Crafting Table",
+   "crafts": 8.0,
+   "inputs": [
+    {
+     "item": "minecraft:clay_ball",
+     "name": "Clay Ball",
+     "count": 2.0,
+     "alt": []
+    },
+    {
+     "item": "modern_industrialization:brick_dust",
+     "name": "Brick Dust",
+     "count": 2.0,
+     "alt": []
+    }
+   ],
+   "outputs": [
+    {
+     "item": "modern_industrialization:fire_clay_dust",
+     "name": "Fire Clay Dust",
+     "count": 3.0,
+     "alt": []
+    }
+   ],
+   "grid": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "id": 25,
+   "recipe": "modern_industrialization:materials/forge_hammer/brick_dust_with_tool",
+   "station": "Forge Hammer",
+   "crafts": 16.0,
+   "inputs": [
+    {
+     "item": "minecraft:brick",
+     "name": "Brick",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "outputs": [
+    {
+     "item": "modern_industrialization:brick_dust",
+     "name": "Brick Dust",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "tool": "Iron Hammer"
+  },
+  {
+   "id": 28,
+   "recipe": "minecraft:furnace",
+   "station": "Crafting Table",
+   "crafts": 2.0,
+   "inputs": [
+    {
+     "item": "minecraft:cobblestone",
+     "name": "Cobblestone",
+     "count": 8.0,
+     "alt": [
+      "Cobblestone",
+      "Blackstone",
+      "Cobbled Deepslate",
+      "Ancient Stone",
+      "Darkstone"
+     ]
+    }
+   ],
+   "outputs": [
+    {
+     "item": "minecraft:furnace",
+     "name": "Furnace",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "grid": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     null,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  {
+   "id": 30,
+   "recipe": "modern_industrialization:materials/bronze/craft/tank",
+   "station": "Crafting Table",
+   "crafts": 1.0,
+   "inputs": [
+    {
+     "item": "alltheores:bronze_plate",
+     "name": "Bronze Plate",
+     "count": 8.0,
+     "alt": []
+    },
+    {
+     "item": "minecraft:glass",
+     "name": "Glass",
+     "count": 1.0,
+     "alt": [
+      "Glass",
+      "Connecting Glass",
+      "Clear Glass",
+      "Scratched Glass",
+      "Tiled Glass",
+      "Framed Glass",
+      "Horizontal Framed Glass",
+      "Vertical Framed Glass",
+      "Deorum Glass",
+      "Runic Glass",
+      "Glass Viewer",
+      "Silicon Glass Viewer",
+      "Dire Glass Viewer",
+      "Glowing Glass Viewer",
+      "Reinforced Glass Viewer",
+      "White Stained Glass",
+      "Orange Stained Glass",
+      "Magenta Stained Glass",
+      "Light Blue Stained Glass",
+      "Yellow Stained Glass",
+      "Lime Stained Glass",
+      "Pink Stained Glass",
+      "Gray Stained Glass",
+      "Light Gray Stained Glass",
+      "Cyan Stained Glass",
+      "Purple Stained Glass",
+      "Blue Stained Glass",
+      "Brown Stained Glass",
+      "Green Stained Glass",
+      "Red Stained Glass",
+      "Black Stained Glass",
+      "Connecting Cyan Stained Glass",
+      "Connecting Orange Stained Glass",
+      "Scratched Light Blue Stained Glass",
+      "Connecting Pink Stained Glass",
+      "Clear Red Stained Glass",
+      "Clear Pink Stained Glass",
+      "Scratched Pink Stained Glass",
+      "Scratched Purple Stained Glass",
+      "Connecting Blue Stained Glass",
+      "Connecting Purple Stained Glass",
+      "Scratched Brown Stained Glass",
+      "Scratched Gray Stained Glass",
+      "Clear Yellow Stained Glass",
+      "Clear Black Stained Glass",
+      "Scratched Red Stained Glass",
+      "Clear Gray Stained Glass",
+      "Connecting Green Stained Glass",
+      "Clear Cyan Stained Glass",
+      "Scratched White Stained Glass",
+      "Scratched Blue Stained Glass",
+      "Clear Blue Stained Glass",
+      "Clear Light Gray Stained Glass",
+      "Connecting Black Stained Glass",
+      "Scratched Yellow Stained Glass",
+      "Connecting Light Blue Stained Glass",
+      "Connecting Red Stained Glass",
+      "Scratched Lime Stained Glass",
+      "Clear Orange Stained Glass",
+      "Connecting White Stained Glass",
+      "Clear Green Stained Glass",
+      "Connecting Lime Stained Glass",
+      "Connecting Brown Stained Glass",
+      "Connecting Yellow Stained Glass",
+      "Clear Lime Stained Glass",
+      "Scratched Light Gray Stained Glass",
+      "Clear Magenta Stained Glass",
+      "Scratched Orange Stained Glass",
+      "Connecting Light Gray Stained Glass",
+      "Clear White Stained Glass",
+      "Scratched Green Stained Glass",
+      "Scratched Magenta Stained Glass",
+      "Scratched Cyan Stained Glass",
+      "Scratched Black Stained Glass",
+      "Clear Purple Stained Glass",
+      "Connecting Gray Stained Glass",
+      "Clear Light Blue Stained Glass",
+      "Connecting Magenta Stained Glass",
+      "Clear Brown Stained Glass",
+      "Tinted Glass",
+      "Connecting Tinted Blue Stained Glass",
+      "Connecting Tinted Lime Stained Glass",
+      "Connecting Tinted Magenta Stained Glass",
+      "Connecting Tinted Glass",
+      "Connecting Tinted Pink Stained Glass",
+      "Connecting Tinted Brown Stained Glass",
+      "Connecting Tinted Green Stained Glass",
+      "Connecting Tinted Yellow Stained Glass",
+      "Connecting Tinted Orange Stained Glass",
+      "Connecting Tinted Red Stained Glass",
+      "Connecting Tinted Cyan Stained Glass",
+      "Connecting Tinted Light Gray Stained Glass",
+      "Connecting Tinted Light Blue Stained Glass",
+      "Connecting Tinted Gray Stained Glass",
+      "Connecting Tinted Purple Stained Glass",
+      "Connecting Tinted White Stained Glass",
+      "Connecting Tinted Black Stained Glass",
+      "Peach Stained Glass",
+      "Aquamarine Stained Glass",
+      "Fluorescent Stained Glass",
+      "Mint Stained Glass",
+      "Maroon Stained Glass",
+      "Bubblegum Stained Glass",
+      "Lavender Stained Glass",
+      "Persimmon Stained Glass",
+      "Cherenkov Stained Glass",
+      "Amber Stained Glass",
+      "Honey Stained Glass",
+      "Ultramarine Stained Glass",
+      "Spring Green Stained Glass",
+      "Rose Stained Glass",
+      "Navy Stained Glass",
+      "Icy Blue Stained Glass",
+      "Wine Stained Glass",
+      "Conifer Stained Glass",
+      "Coal Tinted Glass",
+      "Copper Tinted Glass",
+      "Diamond Tinted Glass",
+      "Emerald Tinted Glass",
+      "Gold Tinted Glass",
+      "Iron Tinted Glass",
+      "Lapis Tinted Glass",
+      "Quartz Tinted Glass",
+      "Redstone Tinted Glass",
+      "Ancient Debris Tinted Glass",
+      "Ruby Tinted Glass",
+      "Sapphire Tinted Glass",
+      "Topaz Tinted Glass",
+      "Zinc Tinted Glass",
+      "Uraninite Tinted Glass",
+      "Black Quartz Tinted Glass",
+      "Monazite Tinted Glass",
+      "Aluminum Tinted Glass",
+      "Lead Tinted Glass",
+      "Nickel Tinted Glass",
+      "Osmium Tinted Glass",
+      "Platinum Tinted Glass",
+      "Silver Tinted Glass",
+      "Tin Tinted Glass",
+      "Tungsten Tinted Glass",
+      "Uranium Tinted Glass",
+      "Allthemodium Tinted Glass",
+      "Vibranium Tinted Glass",
+      "Unobtainium Tinted Glass",
+      "Dark Glass Viewer",
+      "Dark Phantom Glass Viewer",
+      "Quartz Glass",
+      "Vibrant Quartz Glass",
+      "Crystalix Glass",
+      "Clear Crystalix Glass",
+      "Bordered Crystalix Glass",
+      "Glaxx",
+      "Glaxx Variant 1",
+      "Glaxx Variant 2",
+      "Glaxx Variant 3",
+      "Glaxx Variant 4",
+      "Glaxx Variant 5",
+      "Glaxx Variant 6",
+      "Glaxx Variant 7",
+      "Glaxx Variant 8",
+      "Glaxx Variant 9",
+      "Glaxx Variant 10",
+      "Glaxx Variant 11",
+      "Glaxx Variant 12",
+      "Glaxx Variant 13",
+      "Glaxx Variant 14",
+      "Glaxx Variant 15",
+      "Phantom Glass Viewer",
+      "Glowing Phantom Glass Viewer",
+      "Immortal Glass Viewer",
+      "RGB Viewer",
+      "Glowing RGB Viewer"
+     ]
+    }
+   ],
+   "outputs": [
+    {
+     "item": "modern_industrialization:bronze_tank",
+     "name": "Bronze Tank",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "grid": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  {
+   "id": 32,
+   "recipe": "modern_industrialization:materials/bronze/forge_hammer/double_ingot_to_plate_with_tool",
+   "station": "Forge Hammer",
+   "crafts": 25.0,
+   "inputs": [
+    {
+     "item": "modern_industrialization:bronze_double_ingot",
+     "name": "Bronze Double Ingot",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "outputs": [
+    {
+     "item": "alltheores:bronze_plate",
+     "name": "Bronze Plate",
+     "count": 2.0,
+     "alt": []
+    }
+   ],
+   "tool": "Iron Hammer"
+  },
+  {
+   "id": 33,
+   "recipe": "modern_industrialization:materials/bronze/forge_hammer/ingot_to_double_ingot",
+   "station": "Forge Hammer",
+   "crafts": 28.0,
+   "inputs": [
+    {
+     "item": "alltheores:bronze_ingot",
+     "name": "Bronze Ingot",
+     "count": 2.0,
+     "alt": []
+    }
+   ],
+   "outputs": [
+    {
+     "item": "modern_industrialization:bronze_double_ingot",
+     "name": "Bronze Double Ingot",
+     "count": 1.0,
+     "alt": []
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "recipe": "modern_industrialization:materials/bronze/smelting/dust_to_ingot_smelting",
+   "station": "Furnace",
+   "crafts": 72.0,
+   "inputs": [
+    {
+     "item": "alltheores:bronze_dust",
+     "name": "Bronze Dust",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "outputs": [
+    {
+     "item": "alltheores:bronze_ingot",
+     "name": "Bronze Ingot",
+     "count": 1.0,
+     "alt": []
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "recipe": "alltheores:crafting/bronze/alloy_blending_from_dust",
+   "station": "Crafting Table",
+   "crafts": 18.0,
+   "inputs": [
+    {
+     "item": "alltheores:copper_dust",
+     "name": "Copper Dust",
+     "count": 3.0,
+     "alt": [
+      "Copper Dust",
+      "Powdered Copper",
+      "Copper Grit"
+     ]
+    },
+    {
+     "item": "alltheores:tin_dust",
+     "name": "Tin Dust",
+     "count": 1.0,
+     "alt": [
+      "Tin Dust",
+      "Powdered Tin"
+     ]
+    }
+   ],
+   "outputs": [
+    {
+     "item": "alltheores:bronze_dust",
+     "name": "Bronze Dust",
+     "count": 4.0,
+     "alt": []
+    }
+   ],
+   "grid": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1
+    ]
+   ]
+  },
+  {
+   "id": 36,
+   "recipe": "modern_industrialization:materials/tin/forge_hammer/raw_metal_to_dust_with_tool",
+   "station": "Forge Hammer",
+   "crafts": 5.0,
+   "inputs": [
+    {
+     "item": "alltheores:raw_tin",
+     "name": "Raw Tin",
+     "count": 3.0,
+     "alt": []
+    }
+   ],
+   "outputs": [
+    {
+     "item": "alltheores:tin_dust",
+     "name": "Tin Dust",
+     "count": 4.0,
+     "alt": []
+    }
+   ],
+   "tool": "Iron Hammer"
+  },
+  {
+   "id": 38,
+   "recipe": "modern_industrialization:materials/copper/forge_hammer/raw_metal_to_dust_with_tool",
+   "station": "Forge Hammer",
+   "crafts": 26.0,
+   "inputs": [
+    {
+     "item": "minecraft:raw_copper",
+     "name": "Raw Copper",
+     "count": 3.0,
+     "alt": []
+    }
+   ],
+   "outputs": [
+    {
+     "item": "alltheores:copper_dust",
+     "name": "Copper Dust",
+     "count": 4.0,
+     "alt": []
+    }
+   ],
+   "tool": "Iron Hammer"
+  },
+  {
+   "id": 40,
+   "recipe": "modern_industrialization:forge_hammer",
+   "station": "Crafting Table",
+   "crafts": 2.0,
+   "inputs": [
+    {
+     "item": "minecraft:heavy_weighted_pressure_plate",
+     "name": "Heavy Weighted Pressure Plate",
+     "count": 3.0,
+     "alt": []
+    },
+    {
+     "item": "minecraft:iron_ingot",
+     "name": "Iron Ingot",
+     "count": 4.0,
+     "alt": []
+    }
+   ],
+   "outputs": [
+    {
+     "item": "modern_industrialization:forge_hammer",
+     "name": "Forge Hammer",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "grid": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     null,
+     1,
+     null
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ]
+  },
+  {
+   "id": 41,
+   "recipe": "minecraft:heavy_weighted_pressure_plate",
+   "station": "Crafting Table",
+   "crafts": 6.0,
+   "inputs": [
+    {
+     "item": "minecraft:iron_ingot",
+     "name": "Iron Ingot",
+     "count": 2.0,
+     "alt": []
+    }
+   ],
+   "outputs": [
+    {
+     "item": "minecraft:heavy_weighted_pressure_plate",
+     "name": "Heavy Weighted Pressure Plate",
+     "count": 1.0,
+     "alt": []
+    }
+   ],
+   "grid": [
+    [
+     0,
+     0
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": 5,
+   "item": "minecraft:glass_pane",
+   "name": "Glass Pane",
+   "count": 1.0,
+   "alt": []
+  },
+  {
+   "id": 19,
+   "item": "minecraft:diamond",
+   "name": "Diamond",
+   "count": 3.0,
+   "alt": []
+  },
+  {
+   "id": 26,
+   "item": "minecraft:brick",
+   "name": "Brick",
+   "count": 16.0,
+   "alt": []
+  },
+  {
+   "id": 27,
+   "item": "minecraft:clay_ball",
+   "name": "Clay Ball",
+   "count": 16.0,
+   "alt": []
+  },
+  {
+   "id": 29,
+   "item": "minecraft:cobblestone",
+   "name": "Cobblestone",
+   "count": 16.0,
+   "alt": [
+    "Cobblestone",
+    "Blackstone",
+    "Cobbled Deepslate",
+    "Ancient Stone",
+    "Darkstone"
+   ]
+  },
+  {
+   "id": 31,
+   "item": "minecraft:glass",
+   "name": "Glass",
+   "count": 5.0,
+   "alt": [
+    "Glass",
+    "Connecting Glass",
+    "Clear Glass",
+    "Scratched Glass",
+    "Tiled Glass",
+    "Framed Glass",
+    "Horizontal Framed Glass",
+    "Vertical Framed Glass",
+    "Deorum Glass",
+    "Runic Glass",
+    "Glass Viewer",
+    "Silicon Glass Viewer",
+    "Dire Glass Viewer",
+    "Glowing Glass Viewer",
+    "Reinforced Glass Viewer",
+    "White Stained Glass",
+    "Orange Stained Glass",
+    "Magenta Stained Glass",
+    "Light Blue Stained Glass",
+    "Yellow Stained Glass",
+    "Lime Stained Glass",
+    "Pink Stained Glass",
+    "Gray Stained Glass",
+    "Light Gray Stained Glass",
+    "Cyan Stained Glass",
+    "Purple Stained Glass",
+    "Blue Stained Glass",
+    "Brown Stained Glass",
+    "Green Stained Glass",
+    "Red Stained Glass",
+    "Black Stained Glass",
+    "Connecting Cyan Stained Glass",
+    "Connecting Orange Stained Glass",
+    "Scratched Light Blue Stained Glass",
+    "Connecting Pink Stained Glass",
+    "Clear Red Stained Glass",
+    "Clear Pink Stained Glass",
+    "Scratched Pink Stained Glass",
+    "Scratched Purple Stained Glass",
+    "Connecting Blue Stained Glass",
+    "Connecting Purple Stained Glass",
+    "Scratched Brown Stained Glass",
+    "Scratched Gray Stained Glass",
+    "Clear Yellow Stained Glass",
+    "Clear Black Stained Glass",
+    "Scratched Red Stained Glass",
+    "Clear Gray Stained Glass",
+    "Connecting Green Stained Glass",
+    "Clear Cyan Stained Glass",
+    "Scratched White Stained Glass",
+    "Scratched Blue Stained Glass",
+    "Clear Blue Stained Glass",
+    "Clear Light Gray Stained Glass",
+    "Connecting Black Stained Glass",
+    "Scratched Yellow Stained Glass",
+    "Connecting Light Blue Stained Glass",
+    "Connecting Red Stained Glass",
+    "Scratched Lime Stained Glass",
+    "Clear Orange Stained Glass",
+    "Connecting White Stained Glass",
+    "Clear Green Stained Glass",
+    "Connecting Lime Stained Glass",
+    "Connecting Brown Stained Glass",
+    "Connecting Yellow Stained Glass",
+    "Clear Lime Stained Glass",
+    "Scratched Light Gray Stained Glass",
+    "Clear Magenta Stained Glass",
+    "Scratched Orange Stained Glass",
+    "Connecting Light Gray Stained Glass",
+    "Clear White Stained Glass",
+    "Scratched Green Stained Glass",
+    "Scratched Magenta Stained Glass",
+    "Scratched Cyan Stained Glass",
+    "Scratched Black Stained Glass",
+    "Clear Purple Stained Glass",
+    "Connecting Gray Stained Glass",
+    "Clear Light Blue Stained Glass",
+    "Connecting Magenta Stained Glass",
+    "Clear Brown Stained Glass",
+    "Tinted Glass",
+    "Connecting Tinted Blue Stained Glass",
+    "Connecting Tinted Lime Stained Glass",
+    "Connecting Tinted Magenta Stained Glass",
+    "Connecting Tinted Glass",
+    "Connecting Tinted Pink Stained Glass",
+    "Connecting Tinted Brown Stained Glass",
+    "Connecting Tinted Green Stained Glass",
+    "Connecting Tinted Yellow Stained Glass",
+    "Connecting Tinted Orange Stained Glass",
+    "Connecting Tinted Red Stained Glass",
+    "Connecting Tinted Cyan Stained Glass",
+    "Connecting Tinted Light Gray Stained Glass",
+    "Connecting Tinted Light Blue Stained Glass",
+    "Connecting Tinted Gray Stained Glass",
+    "Connecting Tinted Purple Stained Glass",
+    "Connecting Tinted White Stained Glass",
+    "Connecting Tinted Black Stained Glass",
+    "Peach Stained Glass",
+    "Aquamarine Stained Glass",
+    "Fluorescent Stained Glass",
+    "Mint Stained Glass",
+    "Maroon Stained Glass",
+    "Bubblegum Stained Glass",
+    "Lavender Stained Glass",
+    "Persimmon Stained Glass",
+    "Cherenkov Stained Glass",
+    "Amber Stained Glass",
+    "Honey Stained Glass",
+    "Ultramarine Stained Glass",
+    "Spring Green Stained Glass",
+    "Rose Stained Glass",
+    "Navy Stained Glass",
+    "Icy Blue Stained Glass",
+    "Wine Stained Glass",
+    "Conifer Stained Glass",
+    "Coal Tinted Glass",
+    "Copper Tinted Glass",
+    "Diamond Tinted Glass",
+    "Emerald Tinted Glass",
+    "Gold Tinted Glass",
+    "Iron Tinted Glass",
+    "Lapis Tinted Glass",
+    "Quartz Tinted Glass",
+    "Redstone Tinted Glass",
+    "Ancient Debris Tinted Glass",
+    "Ruby Tinted Glass",
+    "Sapphire Tinted Glass",
+    "Topaz Tinted Glass",
+    "Zinc Tinted Glass",
+    "Uraninite Tinted Glass",
+    "Black Quartz Tinted Glass",
+    "Monazite Tinted Glass",
+    "Aluminum Tinted Glass",
+    "Lead Tinted Glass",
+    "Nickel Tinted Glass",
+    "Osmium Tinted Glass",
+    "Platinum Tinted Glass",
+    "Silver Tinted Glass",
+    "Tin Tinted Glass",
+    "Tungsten Tinted Glass",
+    "Uranium Tinted Glass",
+    "Allthemodium Tinted Glass",
+    "Vibranium Tinted Glass",
+    "Unobtainium Tinted Glass",
+    "Dark Glass Viewer",
+    "Dark Phantom Glass Viewer",
+    "Quartz Glass",
+    "Vibrant Quartz Glass",
+    "Crystalix Glass",
+    "Clear Crystalix Glass",
+    "Bordered Crystalix Glass",
+    "Glaxx",
+    "Glaxx Variant 1",
+    "Glaxx Variant 2",
+    "Glaxx Variant 3",
+    "Glaxx Variant 4",
+    "Glaxx Variant 5",
+    "Glaxx Variant 6",
+    "Glaxx Variant 7",
+    "Glaxx Variant 8",
+    "Glaxx Variant 9",
+    "Glaxx Variant 10",
+    "Glaxx Variant 11",
+    "Glaxx Variant 12",
+    "Glaxx Variant 13",
+    "Glaxx Variant 14",
+    "Glaxx Variant 15",
+    "Phantom Glass Viewer",
+    "Glowing Phantom Glass Viewer",
+    "Immortal Glass Viewer",
+    "RGB Viewer",
+    "Glowing RGB Viewer"
+   ]
+  },
+  {
+   "id": 37,
+   "item": "alltheores:raw_tin",
+   "name": "Raw Tin",
+   "count": 15.0,
+   "alt": []
+  },
+  {
+   "id": 39,
+   "item": "minecraft:raw_copper",
+   "name": "Raw Copper",
+   "count": 78.0,
+   "alt": []
+  },
+  {
+   "id": 42,
+   "item": "minecraft:iron_ingot",
+   "name": "Iron Ingot",
+   "count": 22.0,
+   "alt": []
+  }
+ ],
+ "edges": [
+  {
+   "from": 41,
+   "to": 40,
+   "item": "minecraft:heavy_weighted_pressure_plate",
+   "amount": 6.0
+  },
+  {
+   "from": 42,
+   "to": 41,
+   "item": "minecraft:iron_ingot",
+   "amount": 12.0
+  },
+  {
+   "from": 42,
+   "to": 40,
+   "item": "minecraft:iron_ingot",
+   "amount": 8.0
+  },
+  {
+   "from": 32,
+   "to": 21,
+   "item": "alltheores:bronze_plate",
+   "amount": 4.0
+  },
+  {
+   "from": 33,
+   "to": 32,
+   "item": "modern_industrialization:bronze_double_ingot",
+   "amount": 25.0
+  },
+  {
+   "from": 34,
+   "to": 33,
+   "item": "alltheores:bronze_ingot",
+   "amount": 56.0
+  },
+  {
+   "from": 35,
+   "to": 34,
+   "item": "alltheores:bronze_dust",
+   "amount": 72.0
+  },
+  {
+   "from": 38,
+   "to": 35,
+   "item": "alltheores:copper_dust",
+   "amount": 54.0
+  },
+  {
+   "from": 39,
+   "to": 38,
+   "item": "minecraft:raw_copper",
+   "amount": 78.0
+  },
+  {
+   "from": 36,
+   "to": 35,
+   "item": "alltheores:tin_dust",
+   "amount": 18.0
+  },
+  {
+   "from": 37,
+   "to": 36,
+   "item": "alltheores:raw_tin",
+   "amount": 15.0
+  },
+  {
+   "from": 30,
+   "to": 21,
+   "item": "modern_industrialization:bronze_tank",
+   "amount": 1.0
+  },
+  {
+   "from": 32,
+   "to": 30,
+   "item": "alltheores:bronze_plate",
+   "amount": 8.0
+  },
+  {
+   "from": 31,
+   "to": 30,
+   "item": "minecraft:glass",
+   "amount": 1.0
+  },
+  {
+   "from": 28,
+   "to": 21,
+   "item": "minecraft:furnace",
+   "amount": 1.0
+  },
+  {
+   "from": 29,
+   "to": 28,
+   "item": "minecraft:cobblestone",
+   "amount": 16.0
+  },
+  {
+   "from": 22,
+   "to": 21,
+   "item": "modern_industrialization:fire_clay_bricks",
+   "amount": 3.0
+  },
+  {
+   "from": 23,
+   "to": 22,
+   "item": "modern_industrialization:fire_clay_brick",
+   "amount": 24.0
+  },
+  {
+   "from": 24,
+   "to": 23,
+   "item": "modern_industrialization:fire_clay_dust",
+   "amount": 24.0
+  },
+  {
+   "from": 27,
+   "to": 24,
+   "item": "minecraft:clay_ball",
+   "amount": 16.0
+  },
+  {
+   "from": 25,
+   "to": 24,
+   "item": "modern_industrialization:brick_dust",
+   "amount": 16.0
+  },
+  {
+   "from": 26,
+   "to": 25,
+   "item": "minecraft:brick",
+   "amount": 16.0
+  },
+  {
+   "from": 32,
+   "to": 20,
+   "item": "alltheores:bronze_plate",
+   "amount": 5.0
+  },
+  {
+   "from": 28,
+   "to": 20,
+   "item": "minecraft:furnace",
+   "amount": 1.0
+  },
+  {
+   "from": 22,
+   "to": 20,
+   "item": "modern_industrialization:fire_clay_bricks",
+   "amount": 3.0
+  },
+  {
+   "from": 31,
+   "to": 3,
+   "item": "minecraft:glass",
+   "amount": 2.0
+  },
+  {
+   "from": 19,
+   "to": 3,
+   "item": "minecraft:diamond",
+   "amount": 1.0
+  },
+  {
+   "from": 16,
+   "to": 3,
+   "item": "alltheores:copper_gear",
+   "amount": 2.0
+  },
+  {
+   "from": 18,
+   "to": 16,
+   "item": "minecraft:copper_ingot",
+   "amount": 32.0
+  },
+  {
+   "from": 38,
+   "to": 18,
+   "item": "alltheores:copper_dust",
+   "amount": 50.0
+  },
+  {
+   "from": 17,
+   "to": 16,
+   "item": "minecraft:iron_nugget",
+   "amount": 8.0
+  },
+  {
+   "from": 42,
+   "to": 17,
+   "item": "minecraft:iron_ingot",
+   "amount": 2.0
+  },
+  {
+   "from": 14,
+   "to": 3,
+   "item": "modern_industrialization:bronze_machine_casing",
+   "amount": 1.0
+  },
+  {
+   "from": 32,
+   "to": 14,
+   "item": "alltheores:bronze_plate",
+   "amount": 32.0
+  },
+  {
+   "from": 15,
+   "to": 14,
+   "item": "alltheores:bronze_gear",
+   "amount": 4.0
+  },
+  {
+   "from": 34,
+   "to": 15,
+   "item": "alltheores:bronze_ingot",
+   "amount": 16.0
+  },
+  {
+   "from": 17,
+   "to": 15,
+   "item": "minecraft:iron_nugget",
+   "amount": 4.0
+  },
+  {
+   "from": 4,
+   "to": 3,
+   "item": "modern_industrialization:fluid_pipe",
+   "amount": 3.0
+  },
+  {
+   "from": 13,
+   "to": 4,
+   "item": "modern_industrialization:bronze_curved_plate",
+   "amount": 6.0
+  },
+  {
+   "from": 33,
+   "to": 13,
+   "item": "modern_industrialization:bronze_double_ingot",
+   "amount": 3.0
+  },
+  {
+   "from": 6,
+   "to": 4,
+   "item": "modern_industrialization:copper_rotor",
+   "amount": 2.0
+  },
+  {
+   "from": 11,
+   "to": 6,
+   "item": "modern_industrialization:copper_bolt",
+   "amount": 16.0
+  },
+  {
+   "from": 12,
+   "to": 11,
+   "item": "modern_industrialization:copper_double_ingot",
+   "amount": 2.0
+  },
+  {
+   "from": 18,
+   "to": 12,
+   "item": "minecraft:copper_ingot",
+   "amount": 18.0
+  },
+  {
+   "from": 8,
+   "to": 6,
+   "item": "modern_industrialization:copper_blade",
+   "amount": 16.0
+  },
+  {
+   "from": 10,
+   "to": 8,
+   "item": "modern_industrialization:copper_curved_plate",
+   "amount": 8.0
+  },
+  {
+   "from": 12,
+   "to": 10,
+   "item": "modern_industrialization:copper_double_ingot",
+   "amount": 4.0
+  },
+  {
+   "from": 9,
+   "to": 8,
+   "item": "alltheores:copper_rod",
+   "amount": 4.0
+  },
+  {
+   "from": 12,
+   "to": 9,
+   "item": "modern_industrialization:copper_double_ingot",
+   "amount": 2.0
+  },
+  {
+   "from": 7,
+   "to": 6,
+   "item": "modern_industrialization:copper_ring",
+   "amount": 4.0
+  },
+  {
+   "from": 12,
+   "to": 7,
+   "item": "modern_industrialization:copper_double_ingot",
+   "amount": 1.0
+  },
+  {
+   "from": 5,
+   "to": 4,
+   "item": "minecraft:glass_pane",
+   "amount": 1.0
+  },
+  {
+   "from": 19,
+   "to": 2,
+   "item": "minecraft:diamond",
+   "amount": 2.0
+  },
+  {
+   "from": 16,
+   "to": 2,
+   "item": "alltheores:copper_gear",
+   "amount": 3.0
+  },
+  {
+   "from": 14,
+   "to": 2,
+   "item": "modern_industrialization:bronze_machine_casing",
+   "amount": 1.0
+  },
+  {
+   "from": 4,
+   "to": 2,
+   "item": "modern_industrialization:fluid_pipe",
+   "amount": 3.0
+  },
+  {
+   "from": 31,
+   "to": 1,
+   "item": "minecraft:glass",
+   "amount": 2.0
+  },
+  {
+   "from": 16,
+   "to": 1,
+   "item": "alltheores:copper_gear",
+   "amount": 1.0
+  },
+  {
+   "from": 6,
+   "to": 1,
+   "item": "modern_industrialization:copper_rotor",
+   "amount": 2.0
+  },
+  {
+   "from": 14,
+   "to": 1,
+   "item": "modern_industrialization:bronze_machine_casing",
+   "amount": 1.0
+  },
+  {
+   "from": 4,
+   "to": 1,
+   "item": "modern_industrialization:fluid_pipe",
+   "amount": 3.0
+  },
+  {
+   "from": 9,
+   "to": 0,
+   "item": "alltheores:copper_rod",
+   "amount": 2.0
+  },
+  {
+   "from": 40,
+   "to": 0,
+   "item": "modern_industrialization:forge_hammer",
+   "amount": 1.0
+  },
+  {
+   "from": 16,
+   "to": 0,
+   "item": "alltheores:copper_gear",
+   "amount": 2.0
+  },
+  {
+   "from": 14,
+   "to": 0,
+   "item": "modern_industrialization:bronze_machine_casing",
+   "amount": 1.0
+  },
+  {
+   "from": 4,
+   "to": 0,
+   "item": "modern_industrialization:fluid_pipe",
+   "amount": 3.0
+  }
+ ]
+}
