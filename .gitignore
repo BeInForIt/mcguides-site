@@ -2,3 +2,5 @@
 site/
 temp/
 docs/assets/tex/
+docs/assets/gen/
+site-atg/

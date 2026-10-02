@@ -1,3 +1,8 @@
+---
+title: Minecraft Guides
+description: Поэтапные гайды по модам Minecraft с расчетом машин и времени
+---
+
 # Minecraft Guides
 
 Поэтапные гайды по модам Minecraft: какие машины ставить, сколько, на чём они
