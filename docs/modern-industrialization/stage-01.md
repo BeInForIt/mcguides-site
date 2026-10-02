@@ -19,11 +19,16 @@ Compressor** и **Bronze Mixer**. Все делается руками на ве
 - 2 **Diamond**
 - 3 **Glass** и 1 **Glass Pane**
 - по 16 **Brick**, **Clay Ball** и **Cobblestone**
+- 4 **Stick** на два молота
 - 16 **Coal** на плавку, потом уголь для бойлера
+- обычная **Furnace** для плавки и **Bucket** для воды
 
-Руды в мире ATM10SKY нет. Медь и олово дает сито Ex Deorum кусками, из 4
-кусков на верстаке собирается блок руды. Дольше всего на этапе плавка: 126
-плавок по 10 секунд, одной обычной печью это около 21 минуты.
+Руды в мире ATM10SKY нет. Медь и олово дает сито Ex Deorum: **Gravel**
+через **Iron Mesh** дает куски руды, из 4 кусков на верстаке собирается
+блок. **Diamond** выпадает из того же сита. **Clay Ball** получается из
+блока **Clay**, его делает бочка Ex Deorum из **Dust** и воды. Дольше всего
+на этапе плавка: 126 плавок по 10 секунд, одной обычной печью это около 21
+минуты.
 
 ### Дерево этапа
 
@@ -65,22 +70,29 @@ Compressor**.
 <!-- /mc -->
 
 Положите молот в **Forge Hammer**. С ним ковка дает больше и открываются
-рецепты, которых без молота нет. Каждый удар снимает прочность, у **Iron
-Hammer** ее 1 666, и на весь этап одного не хватит. Пока у первого молота
+рецепты, которых без молота нет. Молот нужен именно этот, из Modern
+Industrialization: у Ex Deorum есть свой **Iron Hammer** для дробления
+блоков, но в **Forge Hammer** он не встает. Ковка с молотом снимает
+прочность, у **Iron Hammer** ее 1 666, и на весь этап одного не хватит. Пока у первого молота
 осталось больше 400, сделайте 20 **Iron Plate** на второй: с молотом пластина
 выходит из одного слитка, это 20 **Iron Ingot** и как раз 400 прочности.
 
 !!! tip "Steel Hammer у жителя"
-    Житель с профессией industrialist уже на 1 уровне продает **Steel
-    Hammer**: 8 изумрудов за 1 молот. Прочности у него 4 333, этого хватит на
-    весь этап, и оба **Iron Hammer** делать не придется. Industrialist
-    получается из безработного жителя, рядом с которым стоит **Forge
-    Hammer**. В скайблоке жителя проще всего взять зомби-жителем с фермы
-    мобов и вылечить.
+    Житель с профессией industrialist может продавать **Steel Hammer** уже
+    на 1 уровне: 8 изумрудов за 1 молот. Прочности у него 4 333, этого
+    хватит на весь этап, и оба **Iron Hammer** делать не придется.
+    Industrialist получается из безработного жителя, рядом с которым стоит
+    **Forge Hammer**. В скайблоке жителя проще всего взять зомби-жителем с
+    фермы мобов и вылечить.
+
+    Из 5 сделок уровня житель получает 2 случайные, так что молот есть не у
+    каждого. Если его нет, а вы с жителем еще не торговали, сломайте и
+    поставьте заново **Forge Hammer**: сделки выпадут заново.
 
 ??? note "Можно без молота?"
     Можно, но руды уйдет в три с лишним раза больше: 28 **Copper Ore** и 14
-    **Deepslate Tin Ore**, плавок 296. Железа тогда нужно только 21.
+    **Deepslate Tin Ore**, плавок 296. **Brick** тогда нужно 48, а железа
+    только 21.
 
     Молоты alltheores, которые собираются на верстаке, гайд не советует. Они
     теряют прочность на каждом крафте, и автокрафт с ними в AE2 настроить
@@ -126,7 +138,7 @@ Hammer** ее 1 666, и на весь этап одного не хватит. �
     первой дает тот же выигрыш без железа.
 
 !!! tip "Слитки у жителя"
-    Industrialist продает **Copper Ingot** на 1 уровне, 8 штук за 4
+    Industrialist может продавать **Copper Ingot** на 1 уровне, 8 штук за 4
     изумруда. **Bronze Ingot** появляется на 2 уровне, 3 штуки за 4
     изумруда.
 
@@ -142,7 +154,7 @@ Hammer** ее 1 666, и на весь этап одного не хватит. �
 Из двух слитков **Forge Hammer** делает Double Ingot, молот для этого не
 нужен. Сделайте 24 **Bronze Double Ingot** и 9 **Copper Double Ingot**.
 Двойной слиток бережет молот: деталей из него выходит столько же, а прочности
-уходит вдвое меньше. Остальные 12 **Bronze Ingot** и 24 **Copper Ingot** не
+уходит меньше, на пластинах и стержнях вдвое. Остальные 12 **Bronze Ingot** и 24 **Copper Ingot** не
 трогайте, они пойдут на шестерни.
 
 <!-- mc:card stage-01-gate modern_industrialization:bronze_double_ingot -->
@@ -207,7 +219,7 @@ Blade** и **Copper Ring**, сделайте 4 ротора.
 <!-- /mc -->
 
 !!! tip "Шестерни и роторы у жителя"
-    Industrialist 2 уровня продает **Copper Gear** и **Copper Rotor**, по 1
+    Industrialist 2 уровня может продавать **Copper Gear** и **Copper Rotor**, по 1
     штуке за 4 изумруда. **Bronze Gear** у него на 3 уровне, тоже 1 за 4.
 
 Один крафт **Fluid Pipe** дает сразу 16 труб. Машинам из них нужно 9,
@@ -226,7 +238,8 @@ Blade** и **Copper Ring**, сделайте 4 ротора.
 кирпичей собирается один блок, их нужно 6.
 
 !!! tip "Fire Clay Brick у жителя"
-    Industrialist на 1 уровне продает 6 **Fire Clay Brick** за 2 изумруда.
+    Industrialist на 1 уровне может продавать 6 **Fire Clay Brick** за 2
+    изумруда.
 
 <!-- mc:card stage-01-gate modern_industrialization:brick_dust -->
 <div class="mc-card" style="display:inline-block;vertical-align:top;background:#c6c6c6;border:2px solid #000;border-radius:4px;box-shadow:inset 2px 2px 0 #fff,inset -2px -2px 0 #555;padding:8px 10px 10px;margin:0.4em 0.6em 1em 0;color:#3f3f3f;font-size:0.7rem;line-height:1.25"><span style="display:block;margin:0 0 6px 2px">Forge Hammer</span><span style="display:flex;align-items:center;gap:12px"><span style="display:flex;flex-direction:column;gap:4px"><span title="Brick (Minecraft)" style="position:relative;display:block;width:36px;height:36px;box-sizing:border-box;background:#8b8b8b;border:2px solid;border-color:#373737 #fff #fff #373737;padding:0;margin:0"><img class="off-glb" src="../../assets/tex/minecraft/brick.png" alt="" style="position:absolute;left:0px;top:0px;width:32px;height:32px;max-width:none;max-height:none;image-rendering:pixelated;margin:0"></span></span><span style="display:block;width:0;height:0;border-left:16px solid #8b8b8b;border-top:11px solid transparent;border-bottom:11px solid transparent;margin-left:6px"></span><span style="display:flex;flex-direction:column;gap:4px"><span title="Brick Dust (Modern Industrialization)" style="position:relative;display:block;width:52px;height:52px;box-sizing:border-box;background:#8b8b8b;border:2px solid;border-color:#373737 #fff #fff #373737;padding:0;margin:0"><img class="off-glb" src="../../assets/tex/modern_industrialization/brick_dust.png" alt="" style="position:absolute;left:8px;top:8px;width:32px;height:32px;max-width:none;max-height:none;image-rendering:pixelated;margin:0"></span></span></span><span style="display:block;margin-top:6px">Инструмент: Iron Hammer</span><span style="display:block;margin-top:6px">16 раз</span></div>
@@ -279,8 +292,10 @@ Blade** и **Copper Ring**, сделайте 4 ротора.
 <!-- /mc -->
 
 Пар бойлер отдает сам во все стороны, но удобнее развести его оставшимися
-**Fluid Pipe**. Труба к машине сама не цепляется: кликните по
-соединению ключом. Подойдет **Wrench** из MI или ключ любого другого мода.
+**Fluid Pipe**. Труба к машине сама не цепляется: возьмите **Fluid Pipe** в
+руку и кликните правой кнопкой по машине рядом с трубой. Соединение
+появится, а труба в руке не потратится. Ключом тоже можно, подойдет
+**Wrench** из MI или ключ многих других модов, но в плане этапа ключа нет.
 
 ![Бойлер и четыре машины на трубах](../assets/shots/stage-01-done.png)
 
