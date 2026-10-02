@@ -15,15 +15,13 @@ theme:
     - content.tooltips
     - toc.follow
   palette:
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    - scheme: slate
       primary: black
       accent: orange
       toggle:
         icon: material/brightness-7
         name: Светлая тема
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+    - scheme: default
       primary: black
       accent: orange
       toggle:
