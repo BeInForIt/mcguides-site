@@ -230,6 +230,7 @@
   inset: 6px 6px 6px 6px;
   overflow: hidden;
   cursor: grab;
+  touch-action: none;
   background-color: var(--mc-board);
   background-image:
     linear-gradient(var(--mc-board-line) 1px, transparent 1px),
@@ -302,6 +303,20 @@
   color: #fff;
   text-shadow: 1px 1px 0 #000;
   max-width: 96px;
+}
+
+.mc-node-count {
+  font-family: var(--mc-font);
+  font-size: 11px;
+  line-height: 1;
+  color: #ffff55;
+  text-shadow: 1px 1px 0 #000;
+}
+
+.mc-error {
+  font-family: var(--mc-font);
+  color: #c00000;
+  padding: 8px;
 }
 
 .mc-tree-tools {

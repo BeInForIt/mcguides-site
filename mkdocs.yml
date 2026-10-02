@@ -20,6 +20,12 @@ theme:
         icon: material/brightness-4
         name: Светлая тема
 
+extra_css:
+  - assets/mc.css
+
+extra_javascript:
+  - assets/mc.js
+
 markdown_extensions:
   - admonition
   - tables

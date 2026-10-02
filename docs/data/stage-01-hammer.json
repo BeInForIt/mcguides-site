@@ -2,6 +2,11 @@
  "targets": [
   "modern_industrialization:iron_hammer"
  ],
+ "mods": {
+  "alltheores": "AllTheOres",
+  "minecraft": "Minecraft",
+  "modern_industrialization": "Modern Industrialization"
+ },
  "items": {
   "alltheores:iron_plate": {
    "name": "Iron Plate",

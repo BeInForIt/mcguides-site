@@ -8,6 +8,11 @@
   "modern_industrialization:bronze_mixer",
   "modern_industrialization:bronze_compressor"
  ],
+ "mods": {
+  "alltheores": "AllTheOres",
+  "minecraft": "Minecraft",
+  "modern_industrialization": "Modern Industrialization"
+ },
  "items": {
   "alltheores:bronze_dust": {
    "name": "Bronze Dust",

@@ -18,133 +18,19 @@ Bronze Macerator, Bronze Mixer, Bronze Compressor [ядро; набор — по
 
 ### Дерево ворот
 
-Всё, что нужно для ворот, от сырья до машин. Маршрут «двойной слиток» с
-молотом, ядро. Число на стрелке — сколько штук уходит, «x N» — сколько раз
-выполняется рецепт.
+Все, что нужно для ворот, от сырья до машин. Наведите на предмет, чтобы
+увидеть рецепт и его ветку.
 
-```mermaid
-flowchart LR
-  n0["Bronze Compressor<br/>crafting x1"]
-  n1["Bronze Mixer<br/>crafting x1"]
-  n2["Bronze Macerator<br/>crafting x1"]
-  n3["Bronze Cutting Machine<br/>crafting x1"]
-  n4["fluid_pipes<br/>crafting x1"]
-  n5(["minecraft:glass_pane<br/>1"])
-  n6["Copper Rotor<br/>crafting x4"]
-  n7["Copper Blade<br/>crafting x4"]
-  n8["rods/copper<br/>forge hammer x2"]
-  n9["Copper Curved Plate<br/>forge hammer x4"]
-  n10["Bronze Curved Plate<br/>forge hammer x3"]
-  n11["Bronze Machine Casing<br/>crafting x4"]
-  n12["gears/bronze<br/>crafting x4"]
-  n13["Bronze Ring<br/>forge hammer x1"]
-  n14["Bronze Bolt<br/>forge hammer x2"]
-  n15["gears/copper<br/>crafting x8"]
-  n16["Copper Ring<br/>forge hammer x3"]
-  n17["Copper Bolt<br/>forge hammer x6"]
-  n18["plates/copper<br/>forge hammer x16"]
-  n19["Copper Double Ingot<br/>forge hammer x31"]
-  n20["ingots/copper<br/>furnace x62"]
-  n21(["minecraft:diamond<br/>3"])
-  n22["Bronze Furnace<br/>crafting x1"]
-  n23["Bronze Boiler<br/>crafting x1"]
-  n24["Fire Clay Bricks<br/>crafting x6"]
-  n25["Fire Clay Brick<br/>furnace x24"]
-  n26["Fire Clay Dust<br/>crafting x8"]
-  n27["Brick Dust<br/>forge hammer x16"]
-  n28(["minecraft:brick<br/>16"])
-  n29(["minecraft:clay_ball<br/>16"])
-  n30["Furnace<br/>crafting x2"]
-  n31(["stone_crafting_materials<br/>16"])
-  n32["Bronze Tank<br/>crafting x1"]
-  n33(["glass_blocks<br/>5"])
-  n34["plates/bronze<br/>forge hammer x33"]
-  n35["Bronze Double Ingot<br/>forge hammer x39"]
-  n36["ingots/bronze<br/>furnace x78"]
-  n37["dusts/bronze<br/>crafting x26"]
-  n38["dusts/tin<br/>forge hammer x7"]
-  n39(["raw_materials/tin<br/>21"])
-  n40["dusts/copper<br/>forge hammer x35"]
-  n41(["raw_materials/copper<br/>105"])
-  n42["Forge Hammer<br/>crafting x2"]
-  n43["Heavy Weighted Pressure Plate<br/>crafting x6"]
-  n44(["ingots/iron<br/>20"])
-  n43 -->|6| n42
-  n44 -->|12| n43
-  n44 -->|8| n42
-  n34 -->|4| n23
-  n35 -->|33| n34
-  n36 -->|78| n35
-  n37 -->|78| n36
-  n40 -->|78| n37
-  n41 -->|105| n40
-  n38 -->|26| n37
-  n39 -->|21| n38
-  n32 -->|1| n23
-  n34 -->|8| n32
-  n33 -->|1| n32
-  n30 -->|1| n23
-  n31 -->|16| n30
-  n24 -->|3| n23
-  n25 -->|24| n24
-  n26 -->|24| n25
-  n29 -->|16| n26
-  n27 -->|16| n26
-  n28 -->|16| n27
-  n34 -->|5| n22
-  n30 -->|1| n22
-  n24 -->|3| n22
-  n33 -->|2| n3
-  n21 -->|1| n3
-  n15 -->|2| n3
-  n18 -->|32| n15
-  n19 -->|16| n18
-  n20 -->|62| n19
-  n40 -->|62| n20
-  n17 -->|32| n15
-  n19 -->|6| n17
-  n16 -->|8| n15
-  n19 -->|3| n16
-  n11 -->|1| n3
-  n34 -->|32| n11
-  n12 -->|4| n11
-  n34 -->|16| n12
-  n14 -->|16| n12
-  n35 -->|2| n14
-  n13 -->|4| n12
-  n35 -->|1| n13
-  n4 -->|3| n3
-  n10 -->|6| n4
-  n35 -->|3| n10
-  n6 -->|2| n4
-  n17 -->|16| n6
-  n7 -->|16| n6
-  n9 -->|8| n7
-  n19 -->|4| n9
-  n8 -->|4| n7
-  n19 -->|2| n8
-  n16 -->|4| n6
-  n5 -->|1| n4
-  n21 -->|2| n2
-  n15 -->|3| n2
-  n11 -->|1| n2
-  n4 -->|3| n2
-  n33 -->|2| n1
-  n15 -->|1| n1
-  n6 -->|2| n1
-  n11 -->|1| n1
-  n4 -->|3| n1
-  n8 -->|2| n0
-  n42 -->|1| n0
-  n15 -->|2| n0
-  n11 -->|1| n0
-  n4 -->|3| n0
-```
+<div class="mc-tree" data-src="data/stage-01-gate.json"></div>
 
 ## 2. Машины
 
 Ставятся по одной, линий на этапе нет: книга мода называет паровой век
 временным и вкладываться в него не советует [источник: книга MI 2.4.2].
+
+<div class="mc-recipe" data-src="data/stage-01-gate.json" data-item="modern_industrialization:forge_hammer"></div>
+
+<div class="mc-recipe" data-src="data/stage-01-hammer.json" data-item="modern_industrialization:iron_hammer"></div>
 
 - **Forge Hammer** — два: один стоит, второй уходит в Bronze Compressor [ядро].
 - **Bronze Boiler** — один держит четыре бронзовые машины: 8 mB/t пара на
