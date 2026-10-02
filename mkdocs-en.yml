@@ -1,0 +1,28 @@
+INHERIT: mkdocs.yml
+site_dir: site-en
+
+exclude_docs: |
+  /*
+  !/en/
+  !/assets/
+
+theme:
+  language: en
+  palette:
+    - scheme: slate
+      primary: black
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Light mode
+    - scheme: default
+      primary: black
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Dark mode
+
+nav:
+  - Home: en/index.md
+  - Modern Industrialization:
+      - "Stage 1. Steam and bronze": en/modern-industrialization/stage-01.md

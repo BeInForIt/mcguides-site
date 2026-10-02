@@ -94,7 +94,12 @@ validation:
     absolute_links: info
     unrecognized_links: info
 
+exclude_docs: |
+  /*
+  !/en/
+  !/assets/
+
 nav:
-  - Home: index.md
+  - Home: en/index.md
   - Modern Industrialization:
-      - modern-industrialization/stage-01.md
+      - en/modern-industrialization/stage-01.md

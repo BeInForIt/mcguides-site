@@ -2,6 +2,9 @@ site_name: Minecraft Guides
 site_author: HoppinHauler
 strict: true
 
+exclude_docs: |
+  /en/
+
 theme:
   name: material
   language: ru

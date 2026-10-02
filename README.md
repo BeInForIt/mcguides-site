@@ -10,3 +10,9 @@ python -m venv .venv
 .venv/Scripts/python -m pip install -r requirements.txt
 .venv/Scripts/mkdocs serve
 ```
+
+Russian is built by `mkdocs.yml`, English by `mkdocs-en.yml` from `docs/en/`.
+
+```bash
+.venv/Scripts/mkdocs serve -f mkdocs-en.yml -a 127.0.0.1:8001
+```
