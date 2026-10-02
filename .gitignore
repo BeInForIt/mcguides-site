@@ -1,8 +1,6 @@
 .venv/
 site/
 temp/
-docs/assets/tex/
-docs/assets/gen/
 site-atg/
 site-en/
-docs/assets/shots/
+__pycache__/

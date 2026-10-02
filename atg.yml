@@ -1,5 +1,5 @@
 site_name: All The Guides (check)
-docs_dir: docs
+docs_dir: docs/en
 site_dir: site-atg
 use_directory_urls: true
 strict: true
@@ -94,12 +94,10 @@ validation:
     absolute_links: info
     unrecognized_links: info
 
-exclude_docs: |
-  /*
-  !/en/
-  !/assets/
+hooks:
+  - hooks/shared_assets.py
 
 nav:
-  - Home: en/index.md
+  - Home: index.md
   - Modern Industrialization:
-      - en/modern-industrialization/stage-01.md
+      - modern-industrialization/stage-01.md

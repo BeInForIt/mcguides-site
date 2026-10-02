@@ -1,10 +1,17 @@
 INHERIT: mkdocs.yml
+site_url: https://beinforit.github.io/mcguides-site/en/
+docs_dir: docs/en
 site_dir: site-en
+copyright: >-
+  Guide text by HoppinHauler,
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+  Textures and icons belong to Mojang and the mod authors.
+  Not an official Minecraft product, not affiliated with Mojang, Microsoft or All the Mods.
 
-exclude_docs: |
-  /*
-  !/en/
-  !/assets/
+exclude_docs: ""
+
+hooks:
+  - hooks/shared_assets.py
 
 theme:
   language: en
@@ -22,7 +29,16 @@ theme:
         icon: material/brightness-4
         name: Dark mode
 
+extra:
+  alternate:
+    - name: Русский
+      link: ../
+      lang: ru
+    - name: English
+      link: ./
+      lang: en
+
 nav:
-  - Home: en/index.md
+  - Home: index.md
   - Modern Industrialization:
-      - "Stage 1. Steam and bronze": en/modern-industrialization/stage-01.md
+      - "Stage 1. Steam and bronze": modern-industrialization/stage-01.md
