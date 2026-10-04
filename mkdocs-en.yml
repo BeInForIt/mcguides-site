@@ -21,4 +21,5 @@ extra:
 nav:
   - Home: index.md
   - Modern Industrialization:
+      - "Before Modern Industrialization": modern-industrialization/stage-00.md
       - "Stage 1. Steam and bronze": modern-industrialization/stage-01.md

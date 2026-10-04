@@ -14,4 +14,5 @@ description: Поэтапные гайды по модам Minecraft с расч
 Путь от начала мода до квантовой брони. Названия машин и предметов оставлены
 английскими, как в игре: их удобно копировать в поиск рецептов.
 
+- [До Modern Industrialization](modern-industrialization/stage-00.md)
 - [Этап 1. Пар и бронза](modern-industrialization/stage-01.md)

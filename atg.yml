@@ -100,4 +100,5 @@ hooks:
 nav:
   - Home: index.md
   - Modern Industrialization:
+      - modern-industrialization/stage-00.md
       - modern-industrialization/stage-01.md

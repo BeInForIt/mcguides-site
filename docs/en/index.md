@@ -15,4 +15,5 @@ The path from the start of the mod to the quantum armor. Machine and item
 names are kept as they appear in the game, so you can paste them straight
 into a recipe search.
 
+- [Before Modern Industrialization](modern-industrialization/stage-00.md)
 - [Stage 1. Steam and bronze](modern-industrialization/stage-01.md)

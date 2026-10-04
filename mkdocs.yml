@@ -65,4 +65,5 @@ markdown_extensions:
 nav:
   - Главная: index.md
   - Modern Industrialization:
+      - "До Modern Industrialization": modern-industrialization/stage-00.md
       - "Этап 1. Пар и бронза": modern-industrialization/stage-01.md
